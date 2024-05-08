@@ -66,6 +66,14 @@ body{
 
 
 /**** HOME PAGE CONTENT-1 ****/
+.home-page{
+    width: 100%;
+}
+
+.head{
+    height: 15vh;
+}
+
 .textbox h1{
     font-family: ID-bold;
     color: #000000;
@@ -73,11 +81,13 @@ body{
 }
 
 .textbox h2{
-    font-size: 15px;
+    font-size: 20px;
+    font-weight: 400;
 }
 
 .textbox p{
-    font-size: 15px;
+    font-size: 20px;
+    font-weight: 400;
 }
 
 .span-1{
@@ -121,6 +131,7 @@ body{
     display: flex;
     justify-content: center;
     background-color: transparent;
+    height: 85vh;
     margin: 0 100px;
 }
 
@@ -129,17 +140,7 @@ body{
     flex: 1;
 }
 
-/*
-.textbox{
-    margin-left: 150px;
-}
-
-.img-container{
-    margin-left: -95px;
-}
-
- */
- .img-container1 img{
+.img-container1 img{
     width: 515px;
 }
 
