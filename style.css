@@ -69,6 +69,15 @@ body{
 .textbox h1{
     font-family: ID-bold;
     color: #000000;
+    font-size: 50px;
+}
+
+.textbox h2{
+    font-size: 15px;
+}
+
+.textbox p{
+    font-size: 15px;
 }
 
 .span-1{
@@ -110,17 +119,28 @@ body{
 
 .home-content1{
     display: flex;
-    align-items: centre;
+    justify-content: center;
+    background-color: transparent;
+    margin: 0 100px;
 }
 
 .textbox, .img-container{
+    padding: 25px;
     flex: 1;
-    margin: 0 10px;
 }
 
-.img-container1 img{
-    width: 525px;
-    height: 234px;
+/*
+.textbox{
+    margin-left: 150px;
+}
+
+.img-container{
+    margin-left: -95px;
+}
+
+ */
+ .img-container1 img{
+    width: 515px;
 }
 
 .img-container2 img{
