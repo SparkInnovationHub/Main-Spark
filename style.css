@@ -122,7 +122,7 @@ body{
 .btn-1:hover{
     transform: scale(0.9);
     background-color: transparent;
-    border: 1px solid #032B44;
+    border: 2px solid #032B44;
     color: #032B44;
     transition: .4s;
 }
@@ -203,7 +203,7 @@ body{
 .btn-2:hover{
     transform: scale(0.9);
     background-color: transparent;
-    border: 1px solid #032B44;
+    border: 2px solid #032B44;
     color: #032B44;
     transition: .4s;
 }
@@ -252,6 +252,8 @@ body{
 .home-content3 p{
     padding: 35px 8%;
     text-align: justify;
+    font-size: 20px;
+    font-weight: 400;
 }
 
 /* MEMBERSHIP BUTTON */
@@ -278,7 +280,52 @@ body{
 .btn-3:hover{
     transform: scale(0.9);
     background-color: transparent;
-    border: 1px solid #FFC107;
+    border: 2px solid #FFC107;
     color: #FFC107;
     transition: .4s;
+}
+
+/** PREMIUM PRODUCTS **/
+.home-content4{
+    height: 100vh;
+}
+
+.img-box1 img{
+    width: 318px;
+}
+
+.img-box2 img{
+    width: 318px;
+}
+
+.img-box3 img{
+    width: 318px;
+}
+
+.img-box{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 8%;
+}
+
+.img-box1{
+    flex: 1;
+    margin: 0 10px;
+    background-color: #032B44;
+    border-radius: 20px;
+}
+
+.img-box img {
+    max-width: 100%;
+    padding-top: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.img-box1 h3{
+    text-align: center;
+    color: #ffffff;
+    font-family: ID-bold;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
