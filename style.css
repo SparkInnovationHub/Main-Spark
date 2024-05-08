@@ -116,7 +116,6 @@ body{
     border-radius: 50px;
     font-size: 20px;
     border: 0;
-    transition: 0.5s ease;
 }
 
 .btn-1:hover{
@@ -146,4 +145,75 @@ body{
 
 .img-container2 img{
     width: 255px;
+}
+
+/**** HOME PAGE CONTENT-2 ****/
+.home-content2{
+    background-color: #ffe4e4;
+    height: 100vh;
+}
+.home-content2 h2{
+    text-align: center;
+    font-family: ID-bold;
+    color: #032B44;
+    font-size: 40px;
+    padding-top: 1.4%;
+    padding-bottom: 1.2%;
+}
+
+.home-box2{
+    display: flex;
+    justify-content: center;
+    background-color: transparent;
+    height: 70vh;
+    margin: 0 100px;
+}
+
+.img-container3 img{
+    width: 525px;
+}
+
+.register-btn1{
+    background-color: #FFC107;
+    height: 17%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-2{
+    cursor: pointer;
+    background-color: #032B44;
+    color: white;
+    padding: 9px 25px;
+    border-radius: 50px;
+    font-size: 20px;
+    border: 0;
+}
+
+.btn-2:hover{
+    transform: scale(0.9);
+    background-color: transparent;
+    border: 1px solid #032B44;
+    color: #032B44;
+    transition: .4s;
+}
+
+.img-container3, .textbox2{
+    padding: 25px;
+    flex: 1;
+}
+
+.textbox2 h3{
+    font-family: ID-bold;
+    color: #032B44;
+    font-size: 25px;
+}
+
+.textbox2 p{
+    color: #032B44;
+    font-size: 20px;
+    font-weight: 500;
+    text-align: justify;
+    line-height: 1.4;
 }
