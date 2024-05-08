@@ -77,7 +77,8 @@ body{
 .textbox h1{
     font-family: ID-bold;
     color: #000000;
-    font-size: 50px;
+    font-size: 48px;
+    background-color: transparent;
 }
 
 .textbox h2{
@@ -131,12 +132,20 @@ body{
     justify-content: center;
     background-color: transparent;
     height: 85vh;
-    margin: 0 100px;
 }
 
 .textbox, .img-container{
-    padding: 25px;
+    padding: 35px 8%;
     flex: 1;
+}
+
+.img-container{
+    background-color: transparent;
+    padding-left: 0;
+}
+
+.textbox{
+    padding-right: 0;
 }
 
 .img-container1 img{
@@ -156,7 +165,7 @@ body{
     text-align: center;
     font-family: ID-bold;
     color: #032B44;
-    font-size: 40px;
+    font-size: 36px;
     padding-top: 1.4%;
     padding-bottom: 1.2%;
 }
@@ -212,8 +221,8 @@ body{
 
 .textbox2 p{
     color: #032B44;
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 500;
     text-align: justify;
-    line-height: 1.4;
+    line-height: 1.;
 }
