@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+@font-face {
+    font-family: ID-bold;
+    src: url(./assets/IDGrotesk-Bold-BF652cb1b4740d2.ttf);
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: ID-regular;
+    src: url(./assets/IDGrotesk-Regular-BF652cb1b4787d7.ttf);
+    font-weight: 400;
+}
+
+body{
+    font-family: 'Open sans';
+    font-weight: 600;
+    background-color: #ffffff;
+}
+
+.head{
+    width: 100%;
+    padding: 35px 8%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-bar ul{
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-bar ul li a{
+    padding: 0 15px;
+    color: #032B44;
+    transition: .5s ease;
+}
+
+.nav-bar ul li a:hover{
+    color: #FFC107;
+}
+
+.logo{
+    font-size: 25px;
+    color: #032B44;
+    font-weight: 600;
+    transition: 0.3s ease;
+    font-family: ID-bold;
+}
+
+.logo:hover{
+    color: #FFC107;
+    text-shadow: 0 0 25px #FFC107,
+                 0 0 25px #FFC107;
+                 transform: scale(1.1);
+}
+
+
+/**** HOME PAGE CONTENT-1 ****/
+.textbox h1{
+    font-family: ID-bold;
+    color: #000000;
+}
+
+.span-1{
+    color: #032B44;
+}
+
+.span-2{
+    color: #FFC107;
+}
+
+.subtext{
+    color: #032B44;
+    font-size: 10px;
+}
+
+.home-paragraph{
+    color: #032B44;
+    font-size: 10px;
+}
+
+.btn-1{
+    cursor: pointer;
+    background-color: #032B44;
+    color: white;
+    padding: 9px 25px;
+    border-radius: 50px;
+    font-size: 20px;
+    border: 0;
+    transition: 0.5s ease;
+}
+
+.btn-1:hover{
+    transform: scale(0.9);
+    background-color: transparent;
+    border: 1px solid #032B44;
+    color: #032B44;
+    transition: .4s;
+}
+
+.home-content1{
+    display: flex;
+    align-items: centre;
+}
+
+.textbox, .img-container{
+    flex: 1;
+    margin: 0 10px;
+}
+
+.img-container1 img{
+    width: 525px;
+    height: 234px;
+}
+
+.img-container2 img{
+    width: 255px;
+}
