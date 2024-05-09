@@ -339,8 +339,8 @@ body {
   margin-bottom: 0;
 }
 
-.top img{
-    width: 100%;
+.top img {
+  width: 100%;
 }
 
 .col p {
@@ -353,16 +353,16 @@ body {
   margin: 0px;
 }
 
-.img-text{
-    /* background-color: transparent; */
-    display: flex;
-    margin-top:-30px;
-    margin-left: 8%;
-    align-items: center;
+.img-text {
+  /* background-color: transparent; */
+  display: flex;
+  margin-top: -30px;
+  margin-left: 8%;
+  align-items: center;
 }
 
-.text-img p{
-    padding: 10px;
+.text-img p {
+  padding: 10px;
 }
 
 .foot-details {
@@ -374,71 +374,99 @@ body {
 }
 
 .google-map {
-    position: relative;
-    width: 498px;
-    height: 155px;
+  position: relative;
+  width: 498px;
+  height: 155px;
 }
 
-.google-map p{
-    text-align: center;
-    /* background-color: red; */
-    padding: 2px;
+.google-map p {
+  text-align: center;
+  /* background-color: red; */
+  padding: 2px;
 }
 
 .spark {
-    display: flex;
-    align-items: center;
-    /* background-color: #ffc107; */
-    margin: 0 20px;
-    margin-top: 20px;
+  display: flex;
+  align-items: center;
+  /* background-color: #ffc107; */
+  margin: 0 20px;
+  margin-top: 20px;
 }
 
-.spark h1{
-    font-family: ID-bold;
-    font-size: 90px;
+.spark h1 {
+  font-family: ID-bold;
+  font-size: 90px;
 }
 
 .logo-foot {
-    width: 182px;
-    height: 90px;
-    background-color: #ffffff;
-    margin: 0 30px;
+  width: 182px;
+  height: 90px;
+  background-color: #ffffff;
+  margin: 0 30px;
 }
 
-.footnote p{
-    text-align: center;
+.footnote p {
+  text-align: center;
 }
 
+/* ABOUT US PAGE */
 
-
-
-/*
-
-GREAT STACK TUTORIAL
-.footer {
+.about-page {
   width: 100%;
-  position: absolute;
-  bottom: 0;
-  background-color: #032b44;
+}
+
+.about-content1 {
+  background-image: url("./assets/about1.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 80vh;
+  width: auto;
+  margin-left: 0px;
+}
+
+.about1 {
+  background: linear-gradient(89.38deg, #000 26.82%, transparent);
+  align-items: flex-start;
+  padding: 52px 107px 49px;
+  height: 80vh;
+  z-index: 1;
   color: #ffffff;
-  font-size: 13px;
 }
 
-.foot-details {
-  width: 85%;
-  margin: auto;
-  display: flex;
-  flex-wrap: wrap;
-  background-color: rebeccapurple;
+.about1 h1{
+    font-family: ID-bold;
+    font-size: 90px;
+    line-height: 1;
 }
 
-.col {
-  background-color: gray;
-  flex-basis: 45%;
-  padding: 10px;
+.about1 h2{
+    font-family: ID-regular;
+    font-size: 24px;
+    font-weight: 400;
+    /* background-color: red; */
+    padding: 22px;
+    padding-left: 0;
 }
 
-.col img {
-  width: 38px;
-  display: inline-block;
-} */
+.btn-4 {
+    width: 258px;
+    
+    cursor: pointer;
+    background-color: #ffc107;
+    color: #032b44;
+    font-family: ID-regular;
+    font-weight: 570;
+    padding: 9px 25px;
+    border-radius: 50px;
+    font-size: 24px;
+    border: 0;
+  }
+  
+  .btn-4:hover {
+    transform: scale(0.9);
+    background-color: transparent;
+    border: 2px solid #ffc107;
+    color: #ffc107;
+    transition: 0.4s;
+  }
