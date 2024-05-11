@@ -26,12 +26,21 @@ body {
   background-color: #ffffff;
 }
 
+.home-page {
+  max-width: 1280px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+/* NAVIGATION BAR */
+
 .head {
   width: 100%;
   padding: 35px 8%;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  /* background-color: #000; */
 }
 
 .nav-bar ul {
@@ -64,12 +73,13 @@ body {
 }
 
 /**** HOME PAGE CONTENT-1 ****/
-.home-page {
+.home-content1 {
+  display: flex;
+  justify-content: center;
+  /* background-color: yellow; */
   width: 100%;
-}
-
-.head {
-  height: 15vh;
+  height: 50%;
+  margin: 0 auto;
 }
 
 .textbox h1 {
@@ -125,13 +135,6 @@ body {
   transition: 0.4s;
 }
 
-.home-content1 {
-  display: flex;
-  justify-content: center;
-  background-color: transparent;
-  height: 85vh;
-}
-
 .textbox,
 .img-container {
   padding: 35px 8%;
@@ -158,7 +161,9 @@ body {
 /**** HOME PAGE CONTENT-2 ****/
 .home-content2 {
   background-color: #ffe4e4;
-  height: 100vh;
+  width: 100%;
+  height: 50%;
+  margin: 0 auto;
 }
 .home-content2 h2 {
   text-align: center;
@@ -173,7 +178,6 @@ body {
   display: flex;
   justify-content: center;
   background-color: transparent;
-  height: 70vh;
   margin: 0 100px;
 }
 
@@ -183,7 +187,7 @@ body {
 
 .register-btn1 {
   background-color: #ffc107;
-  height: 17%;
+  height: 70px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -227,9 +231,11 @@ body {
   line-height: 1;
 }
 
-/**** HOME PAGE CONTENT-2 ****/
+/**** HOME PAGE CONTENT-3 ****/
 .home-content3 {
-  height: 100vh;
+  width: 100%;
+  height: 50%;
+  margin: 0 auto;
 }
 
 .home-content3 img {
@@ -260,7 +266,7 @@ body {
 
 .register-btn2 {
   background-color: #032b44;
-  height: 15%;
+  height: 70px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -287,7 +293,10 @@ body {
 
 /** HOME CONTENT4 - PREMIUM PRODUCTS **/
 .home-content4 {
-  height: 100vh;
+  width: 100%;
+  height: 50%;
+  margin: 0 auto;
+  padding-bottom: 50px;
 }
 
 .img-box1 img {
@@ -333,10 +342,10 @@ body {
 /** FOOTER **/
 .footer {
   width: 100%;
-  height: 100vh;
+  height: 600px;
+  margin: 0 auto;
   background-color: #032b44;
   color: #ffffff;
-  margin-bottom: 0;
 }
 
 .top img {
@@ -429,8 +438,8 @@ body {
 }
 
 .footnote {
-  /* background-color: pink; */
-  height: 10%;
+  background-color: pink;
+  height: 10;
 }
 
 .footnote p {
@@ -440,7 +449,10 @@ body {
 /* ABOUT US PAGE */
 
 .about-page {
+  max-width: 1280px;
   width: 100%;
+  margin: 0 auto;
+  padding-bottom: 0;
 }
 
 .about-content1 {
@@ -448,17 +460,15 @@ body {
   background-size: 100%;
   background-repeat: no-repeat;
   background-position: center;
-  height: 85vh;
-  width: auto;
-  overflow: hidden;
-  margin-left: 0px;
+  height: 50%;
+  margin: 0 auto;
 }
 
 .about1 {
   background: linear-gradient(89.38deg, #000 26.82%, transparent);
   align-items: flex-start;
   padding: 52px 107px 49px;
-  height: 85vh;
+  height: 50%;
   z-index: 1;
   color: #ffffff;
 }
@@ -480,7 +490,6 @@ body {
 
 .btn-4 {
   width: 258px;
-
   cursor: pointer;
   background-color: #ffc107;
   color: #032b44;
@@ -506,7 +515,7 @@ body {
   height: 377px;
   background-color: #fff;
   color: #000;
-  margin: 0 5px;
+  margin: 0 auto;
   padding: 15px 8%;
 }
 
@@ -541,7 +550,9 @@ body {
 
 /* ABOUT PAGE CONTENT-3 */
 .about-content3 {
-  height: 100vh;
+  width: 100%;
+  height: 50%;
+  margin: 0 auto;
   background-color: #fff;
   display: flex;
   justify-content: center;
@@ -549,7 +560,7 @@ body {
 }
 
 .about3 {
-  height: 100%;
+  height: 600px;
   width: 95vw;
   background-color: #032b44;
   display: flex;
@@ -612,12 +623,12 @@ body {
   height: 30%;
 }
 
-.inn-head h2{
+.inn-head h2 {
   font-family: ID-bold;
   font-size: 32px;
 }
 
-.inn-body{
+.inn-body {
   /* background-color: red; */
   height: 70%;
   display: flex;
@@ -625,7 +636,7 @@ body {
   text-align: left;
 }
 
-.inn-body p{
+.inn-body p {
   font-family: ID-regular;
   font-size: 22px;
   font-weight: 500;
@@ -635,7 +646,7 @@ body {
 .circlea {
   width: 59px;
   height: 59px;
-  background-color: #032B44;
+  background-color: #032b44;
   border-radius: 50%;
   margin-right: 10px;
 }
@@ -643,7 +654,7 @@ body {
 .circleb {
   width: 59px;
   height: 59px;
-  background-color: #EC0505;
+  background-color: #ec0505;
   border-radius: 50%;
   margin-right: 10px;
 }
@@ -651,7 +662,7 @@ body {
 .circlec {
   width: 59px;
   height: 59px;
-  background-color: #FFC107;
+  background-color: #ffc107;
   border-radius: 50%;
   margin-right: 10px;
 }
@@ -659,7 +670,7 @@ body {
 .circled {
   width: 59px;
   height: 59px;
-  background-color: #03BB37;
+  background-color: #03bb37;
   border-radius: 50%;
   margin-right: 10px;
 }
@@ -667,41 +678,44 @@ body {
 .circlee {
   width: 59px;
   height: 59px;
-  background-color: #3000B7;
+  background-color: #3000b7;
   border-radius: 50%;
   margin-right: 10px;
 }
 
 /* ABOUT PAGE CONTENT-4 */
-.about-content4{
-  height: 100vh;
+.about-content4 {
+  width: 100%;
+  height: 50%;
+  margin: 0 auto;
+  margin-bottom: 50px;
 }
 
-.about4-body{
+.about4-body {
   display: flex;
   align-items: center;
   justify-content: space-around;
   background-color: #ffc107;
-  width: 95vw;
+  width: 95%;
   border-radius: 34px;
   /* padding: 25px 8%; */
-  margin: 0 20px;
+  margin: 0 auto;
   padding-top: 20px;
-  padding-bottom: 8px;
+  padding-bottom: 10px;
   padding-left: 40px;
   padding-right: 40px;
 }
 
-.about4-body img{
+.about4-body img {
   width: 345px;
 }
 
-.about4{
+.about4 {
   height: 18%;
   text-align: left;
 }
 
-.about4 h2{
+.about4 h2 {
   font-family: ID-bold;
   font-size: 36px;
   padding-top: 1.2%;
@@ -709,42 +723,43 @@ body {
   padding: 25px 8%;
 }
 
-.a4body-1{
+.a4body-1 {
   flex: 1;
   margin: 0 10px;
   text-align: center;
   line-height: 1.2;
 }
 
-.a4body-1 h3{
+.a4body-1 h3 {
   font-family: ID-bold;
   font-size: 20px;
 }
 
-.a4body-1 p{
+.a4body-1 p {
   font-family: ID-regular;
   font-weight: 300;
   font-size: 20px;
 }
 
 /* ABOUT PAGE CONTENT-5 */
-.about-content5{
-  height: 100vh;
+.about-content5 {
+  width: 100%;
+  height: 50%;
   display: flex;
   align-items: center;
   justify-content: center;
-  margin: 0 10px;
-  /* overflow: hidden; */
+  margin: 0 auto;
+  margin-bottom: 50px;
 }
 
-.about5a img{
+.about5a img {
   width: 750px;
   height: 475px;
 }
 
-.about5b{
+.about5b {
   height: 475px;
-  background-color: #E8E8E8;
+  background-color: #e8e8e8;
   width: 409px;
   border-radius: 20px;
   text-align: center;
@@ -754,12 +769,12 @@ body {
   margin: 0 15px;
 }
 
-.about5b-text h2{
+.about5b-text h2 {
   font-family: ID-bold;
   font-size: 40px;
 }
 
-.about5b-text p{
+.about5b-text p {
   width: 80%;
   font-family: ID-regular;
   font-size: 24px;
