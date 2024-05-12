@@ -13,33 +13,20 @@
       rel="stylesheet"
       href="https://fonts.googleapis.com/css2?family=Open Sans:wght@400;700&display=swap"
     />
-    <!-- 
-      
-      VS CODE'S LIVE SERVER FIX
-      
-      <script>
-      window.onload = function () {
-        // Store the current scroll position
-        var scrollPosition = window.scrollY;
-
-        // When the page reloads, scroll back to the stored position
-        window.scrollTo(0, scrollPosition);
-      };
-    </script> -->
   </head>
   <body>
     <div class="about-page">
       <header class="head">
-        <a href="" class="logo"
+        <a href="/index.html" class="logo"
           >Spark Innovation <br />
           Hub</a
         >
 
         <nav class="nav-bar">
           <ul>
-            <li><a href="">About Us</a></li>
+            <li><a href="about.html">About Us</a></li>
             <li><a href="">Academy</a></li>
-            <li><a href="">Co-Workspace</a></li>
+            <li><a href="co-workspace.html">Co-Workspace</a></li>
             <li><a href="">Community</a></li>
             <li><a href="">Contact Us</a></li>
           </ul>
@@ -168,7 +155,7 @@
           </div>
         </div>
       </section>
-      <!-- <footer class="footer">
+      <footer class="footer">
         <div class="top">
           <img src="./assets/pattern.svg">
         </div>
@@ -203,21 +190,7 @@
         <div class="footnote">
           <p>Copyright 2024</p>
         </div>
-      </footer> -->
+      </footer>
     </div>
-    <!-- <script>
-      // Save scroll position when the page unloads
-      window.addEventListener('beforeunload', () => {
-        localStorage.setItem('scrollPosition', window.scrollY);
-      });
-    
-      // Restore scroll position when the page loads
-      window.addEventListener('load', () => {
-        const savedScrollPosition = localStorage.getItem('scrollPosition');
-        if (savedScrollPosition) {
-          window.scrollTo(0, parseInt(savedScrollPosition));
-        }
-      });
-    </script> -->
   </body>
 </html>

@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Spark Innovatio Hub - Testing</title>
+    <style>
+      * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+        text-decoration: none;
+      }
+      @font-face {
+        font-family: ID-bold;
+        src: url(./assets/IDGrotesk-Bold-BF652cb1b4740d2.ttf);
+        font-weight: 700;
+      }
+
+      @font-face {
+        font-family: ID-regular;
+        src: url(./assets/IDGrotesk-Regular-BF652cb1b4787d7.ttf);
+        font-weight: 400;
+      }
+
+      @font-face {
+        font-family: ID-thin;
+        src: url(./assets/IDGrotesk-Thin-BF652cb1b461e9c.ttf);
+        font-weight: 100;
+      }
+
+      body {
+        font-family: "Open sans";
+        font-weight: 600;
+        background-color: #ffffff;
+      }
+
+      body {
+        max-width: 1280px;
+        width: 100%;
+        margin: 0 auto;
+      }
+
+      .work-card-container {
+        width: 90%;
+        background-color: green;
+        margin: 50px auto;
+      }
+
+      .w3-heading {
+        text-align: center;
+        font-size: 30px;
+        margin-bottom: 50px;
+      }
+
+      .w3-row {
+        display: flex;
+        justify-content: space-around;
+        flex-flow: wrap;
+      }
+
+      .w3-card {
+        width: 20%;
+        background: yellow;
+        border: 1px solid #ccc;
+        margin-bottom: 50px;
+        transition: 0.3s;
+      }
+
+      .w3-card-header {
+        text-align: center;
+        background-color: white;
+        padding: 5px 10px;
+        margin-top: 15px;
+      }
+
+      .w3-card-body {
+        background: pink;
+        font-size: 12px;
+      }
+
+      .w3-card-body p {
+        text-align: left;
+      }
+
+      .w3-card-body .btn {
+        display: block;
+        text-align: center;
+        background-color: white;
+        margin: 30px 30px;
+        text-decoration: none;
+      }
+
+      .w3-card:hover {
+        transform: scale(1.05);
+        box-shadow: #ffffff;
+      }
+
+      /* MEDIA QUERIES */
+      @media (max-width: 1000px) {
+        .w3-card {
+          width: 40%;
+        }
+      }
+
+      @media (max-width: 620px) {
+        .work-card-container {
+          width: 100%;
+        }
+        .w3-heading{
+            padding: 20px;
+            font-size: 20px;
+        }
+        .w3-card {
+          width: 80%;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="work-card-container">
+      <div class="w3-heading">
+        <h2>Our Membership Plans</h2>
+      </div>
+      <div class="w3-row">
+        <div class="w3-card">
+          <div class="w3-card-header">
+            <h3>React</h3>
+          </div>
+          <div class="w3-card-body">
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi
+              architecto porro, molestias dolores minima.
+            </p>
+            <a href="#" class="btn">Read more</a>
+          </div>
+        </div>
+        <div class="w3-card">
+          <div class="w3-card-header">
+            <h3>Vue</h3>
+          </div>
+          <div class="w3-card-body">
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi
+              architecto porro, molestias dolores minima.
+            </p>
+            <a href="#" class="btn">Read more</a>
+          </div>
+        </div>
+        <div class="w3-card">
+          <div class="w3-card-header">
+            <h3>Angular</h3>
+          </div>
+          <div class="w3-card-body">
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi
+              architecto porro, molestias dolores minima.
+            </p>
+            <a href="#" class="btn">Read more</a>
+          </div>
+        </div>
+        <div class="w3-card">
+          <div class="w3-card-header">
+            <h3>JQuery</h3>
+          </div>
+          <div class="w3-card-body">
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi
+              architecto porro, molestias dolores minima.
+            </p>
+            <a href="#" class="btn">Read more</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
