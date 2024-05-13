@@ -175,7 +175,7 @@ body {
   color: #032b44;
   font-size: 36px;
   padding-top: 1.4%;
-  padding-bottom: 1.2%;
+  padding-bottom: 0.2%;
 }
 
 .home-box2 {
@@ -328,6 +328,7 @@ body {
   justify-content: center;
   align-items: center;
   /* padding: 35px 8%; */
+  margin-left: -35px;
 }
 
 .img-box1 {
@@ -378,6 +379,8 @@ footer {
 
 .imgs {
   display: flex;
+  /* background-color: red; */
+  margin-top: 5%;
 }
 
 .imgs img {
@@ -398,11 +401,13 @@ footer {
 .col-1 p {
   font-family: ID-regular;
   font-size: 24px;
-  line-height: 1.5;
+  font-weight: 200;
+  line-height: 1.8;
 }
 
 .span-4 {
   font-family: ID-bold;
+  font-size: 24px;
 }
 
 .col-2 p {
@@ -415,6 +420,7 @@ footer {
   justify-content: space-evenly;
   /* background-color: brown; */
   align-items: center;
+  margin-top: 2.5%;
 }
 
 .spark h1 {
@@ -446,7 +452,7 @@ footer {
 }
 
 .about-content1 {
-  background-image: url("./assets/about1.png");
+  background-image: url("./assets/about1b.png");
   background-size: 100%;
   background-repeat: no-repeat;
   background-position: center;
@@ -543,10 +549,11 @@ footer {
   width: 100%;
   height: 50%;
   margin: 0 auto;
-  background-color: #fff;
+  background-color: #D9D9D9;
   display: flex;
   justify-content: center;
   align-items: center;
+  padding: 40px;
 }
 
 .about3 {
@@ -554,63 +561,66 @@ footer {
   width: 95vw;
   background-color: #032b44;
   display: flex;
-  /* justify-content: space-evenly; */
-  gap: 1px;
+  justify-content: space-evenly;
+  gap: 10px;
   flex-wrap: wrap;
   align-items: center;
   border-radius: 34px;
-  padding-top: 8px;
-  padding-bottom: 8px;
+  padding-top: 50px;
+  padding-bottom: 50px;
   padding-left: 40px;
   padding-right: 40px;
 }
 
 .inner3a {
   background-color: #ffffff;
-  width: 335.26px;
-  height: 254.63px;
+  width: 345px;
+  height: 234px;
   border-radius: 20px;
-  margin-left: 38px;
+  /* margin-left: 38px; */
 }
 
 .inner3b {
   background-color: #ffffff;
-  width: 335.26px;
-  height: 254.63px;
+  width: 345px;
+  height: 234px;
   border-radius: 20px;
-  margin: 0 18px;
+  /* margin: 0 18px; */
 }
 
 .inner3c {
   background-color: #ffffff;
-  width: 335.26px;
-  height: 254.63px;
+  width: 345px;
+  height: 234px;
   border-radius: 20px;
-  margin-right: -48px;
+  /* margin-right: -48px; */
 }
 
 .inner3d {
   background-color: #ffffff;
-  width: 335.26px;
-  height: 254.63px;
+  width: 345px;
+  height: 234px;
   border-radius: 20px;
-  margin-left: 40px;
+  /* margin-left: 40px; */
 }
 
 .inner3e {
   background-color: #ffffff;
-  width: 538.18px;
-  height: 254.63px;
+  width: 705px;
+  height: 234px;
   border-radius: 20px;
-  margin-left: 20px;
+  /* margin-left: 20px; */
 }
 
 /* INNER CONTENT OF ABOUT PAGE-CONTENT3 */
 .inn-head {
   display: flex;
   align-items: center;
-  justify-content: space-evenly;
+  justify-content: flex-start;
   height: 30%;
+  padding-left: 7%;
+  padding-top: 4%;
+  /* background-color: pink; */
 }
 
 .inn-head h2 {
@@ -619,11 +629,12 @@ footer {
 }
 
 .inn-body {
-  /* background-color: red; */
+  /* background-color: orangered; */
   height: 70%;
   display: flex;
   justify-content: flex-start;
   text-align: left;
+  padding-left: 7%;
 }
 
 .inn-body p {
@@ -669,7 +680,7 @@ footer {
   width: 59px;
   height: 59px;
   background-color: #3000b7;
-  border-radius: 50%;
+  border-radius: 10%;
   margin-right: 10px;
 }
 
@@ -686,12 +697,11 @@ footer {
   align-items: center;
   justify-content: space-around;
   background-color: #ffc107;
-  width: 95%;
-  border-radius: 34px;
+  width: 100%;
   /* padding: 25px 8%; */
   margin: 0 auto;
-  padding-top: 20px;
-  padding-bottom: 10px;
+  padding-top: 30px;
+  padding-bottom: 20px;
   padding-left: 40px;
   padding-right: 40px;
 }
@@ -762,6 +772,8 @@ footer {
 .about5b-text h2 {
   font-family: ID-bold;
   font-size: 40px;
+  text-align: left;
+  margin: 0 55px;
 }
 
 .about5b-text p {
@@ -814,7 +826,8 @@ footer {
 
 .work-content1 img {
   width: 1065px;
-  height: 688px;
+  height: 484px;
+  border-radius: 20px;
 }
 
 .work1 {
@@ -826,8 +839,9 @@ footer {
 
 .work1 h1 {
   font-family: ID-bold;
-  font-size: 96px;
+  font-size: 86px;
   margin: 0;
+  line-height: 1;
 }
 
 .btn-6 {
@@ -869,21 +883,22 @@ footer {
   font-family: ID-regular;
   font-size: 20px;
   color: #000000;
+  font-weight: 300;
 }
 /* CARDS */
 .work-content3 {
-  width: 95%;
+  width: 100%;
   background-color: #eeeeed;
   /* height: 600px; */
   margin: 0 auto;
-  border-radius: 33px;
   margin-bottom: 50px;
   color: #ffffff;
 }
 
 .work3-head h2 {
   font-family: ID-bold;
-  padding: 10px 30px;
+  font-size: 36px;
+  padding: 20px 90px;
   color: #000000;
 }
 
