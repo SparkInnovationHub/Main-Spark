@@ -1,0 +1,102 @@
+/* INITIAL FOOTER */
+
+.footer {
+    width: 100%;
+    height: 600px;
+    margin: 0 auto;
+    background-color: #032b44;
+    color: #ffffff;
+  }
+  
+  .top img {
+    width: 100%;
+  }
+  
+  .foot-details {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 8%;
+    /* background-color: rebeccapurple; */
+    margin: 0 50px;
+  }
+  
+  .col-1 p {
+    font-family: ID-regular;
+    font-size: 24px;
+    line-height: 1.5;
+  }
+  
+  .span-4 {
+    font-family: ID-bold;
+  }
+  
+  .col-2 p {
+    font-family: ID-regular;
+    font-size: 24px;
+  }
+  
+  .col-1 {
+    /* background-color: purple; */
+    margin-left: -70px;
+  }
+  
+  .col-2 {
+    /* background-color: yellow; */
+    margin-top: -15px;
+  }
+  
+  .col-1 img {
+    width: 38px;
+    display: inline-block;
+    margin: 0px;
+  }
+  
+  .img-text {
+    /* background-color: green; */
+    display: flex;
+    margin-top: -30px;
+    margin-left: 8%;
+    align-items: center;
+  }
+  
+  .text-img p {
+    padding: 10px;
+  }
+  
+  .google-map {
+    position: relative;
+    width: 498px;
+    height: 155px;
+  }
+  
+  .google-map p {
+    text-align: center;
+    /* background-color: red; */
+    padding: 1px;
+    font-size: 24px;
+    text-align: center;
+  }
+  
+  .spark {
+    display: flex;
+    justify-content: center;
+    /* background-color: #ffc107; */
+    margin: 0 20px;
+    margin-top: 20px;
+  }
+  
+  .spark h1 {
+    font-family: ID-bold;
+    font-size: 90px;
+  }
+  
+  .logo-foot {
+    width: 182px;
+    height: 90px;
+    background-color: #ffffff;
+    margin: 0 30px;
+  }
+  
+  .footnote p {
+    text-align: center;
+  }

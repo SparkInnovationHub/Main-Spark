@@ -1,12 +1,101 @@
-/* SLAYING THE DRAGON */
+/* HOME PAGE */
 
-.container {
+/* .home-page {
   max-width: 1536px;
   margin-left: auto;
   margin-right: auto;
   padding-left: 0.5rem;
   padding-right: 0.5rem;
+} */
+
+/* 2xl */
+@media (max-width: 1600px) {
+  .home-page {
+    max-width: 1600px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .head {
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  footer{
+    height: 650px;
+  }
 }
+
+/* xl */
+@media (max-width: 1500px) {
+  .home-page {
+    max-width: 1500px;
+    width: 100%;
+    /* background-color: grey; */
+    /* margin-left: 0px; */
+    margin-right: auto;
+    margin-bottom: auto;
+    overflow: hidden;
+  }
+
+  .head { 
+    /* background-color: pink; */
+  }
+
+  .home-content1 {
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+  }
+
+  .footer {
+    /* width: 100%;
+    height: 650px;
+    margin: 0 auto;
+    background-color: #032b44;
+    color: #ffffff; */
+  }
+}
+
+/* lg */
+@media (max-width: 1024px) {
+  .home-page {
+    max-width: 768px;
+    width: 100%;
+    /* background-color: aqua; */
+  }
+}
+
+/* md */
+@media (max-width: 768px) {
+  .container {
+    max-width: 640px;
+  }
+}
+
+/* sm */
+@media (max-width: 640px) {
+  .container {
+    max-width: 475px;
+  }
+}
+
+/* xs */
+@media (max-width: 475px) {
+  .container {
+    width: 100%;
+  }
+}
+
+/* ABOUT PAGE */
+
+/* .home-page {
+  max-width: 1536px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+} */
 
 /* 2xl */
 @media (max-width: 1536px) {
