@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Spark Innovation Hub - Academy</title>
+    <title>Spark Innovation Hub - Contact</title>
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="media.css" />
     <link
@@ -16,7 +16,7 @@
     />
   </head>
   <body>
-    <div class="academy-page">
+    <div class="contact-page">
       <header class="head">
         <a href="/index.html" class="logo"
           >Spark Innovation <br />
@@ -33,59 +33,70 @@
           </ul>
         </nav>
       </header>
-      <div class="academy-content1">
-        <div class="academy-left">
-          <h1>Master the <br />Essentials</h1>
-          <div class="academy-icons">
-            <div class="icon3a">
-              <img src="/assets/user.png" alt="" />
-              <p>Zero tech expertise required</p>
-            </div>
-            <div class="icon3a">
-              <img src="/assets/clock.png" alt="" />
-              <p>48 hours of intense instruction with your tutor</p>
-            </div>
-            <div class="icon3a">
-              <img src="/assets/school.png" alt="" />
-              <p>20 Students 
-                max per cohort</p>
-            </div>
+      <section class="contact-content1">
+        <div class="form-container">
+          <div class="contact-left">
+            <h2>Get in touch</h2>
+            <p>
+              Got a question? We'd love to hear from you. Fill out the form and
+              we'll get back to you as soon as possible
+            </p>
+            <br />
+            <p>
+              Instagram @sparkinnovationhub <br />
+              Call Us: +234 808 262 2544 <br />
+              Say Hi: info@sparkinnovationhub.com
+            </p>
           </div>
-          <a class="btn-10" href="under-construction.html">Start Now</a>
+          <div class="contact-right">
+            <form action="https://formspree.io/f/xvoeyewl" method="post" class="contact-form">
+              <div class="input-container">
+                <input type="text" name="name" class="contact-input" required />
+                <label for="name">Name</label>
+                <span>Name</span>
+              </div>
+
+              <div class="input-container ">
+                <input
+                  type="text"
+                  name="email"
+                  class="contact-input"
+                  required
+                />
+                <label for="email">Email</label>
+                <span>Email</span>
+              </div>
+
+              <div class="input-container ">
+                <input
+                type="tel"
+                name="phone"
+                class="contact-input"
+                required
+              />
+              <label for="phone">Phone Number</label>
+              <span>Phone Number</span>
+              </div> 
+
+              
+              <div class="input-container ">
+                <textarea
+                name="message"
+                id=""
+                class="contact-input-a"
+                required
+              ></textarea>
+              <label for="message">Message</label>
+              <span>Message</span>
+              </div>
+            
+
+              <button type="submit" class="btn-11">Send Message</button>
+            </form>
+          </div>
         </div>
-        <div class="academy-right">
-          <img src="./assets/academy1.png" alt="A Woman on a Laptop" />
-        </div>
-      </div>
-      <div class="academy-content2">
-        <h2>Courses</h2>
-        <div class="academy2">
-          <div class="academy2a">
-            <div class="course-box">
-              <img src="/assets/academy2.png" alt="" />
-            </div>
-            <p>Graphics Design</p>
-          </div>
-          <div class="academy2a">
-            <div class="course-box">
-              <img src="/assets/academy3.png" alt="" />
-            </div>
-            <p>Web Development</p>
-          </div>
-          <div class="academy2a">
-            <div class="course-box">
-              <img src="/assets/academy4.png" alt="" />
-            </div>
-            <p>Digital Marketing</p>
-          </div>
-          <div class="academy2a">
-            <div class="course-box">
-              <img src="/assets/academy2.png" alt="" />
-            </div>
-            <p>Social Media Management</p>
-          </div>
-        </div>
-      </div>
+      </section>
+      
       <footer class="footer">
         <div class="top">
           <img src="./assets/pattern.svg" />
@@ -117,7 +128,7 @@
                 loading="lazy"
                 referrerpolicy="no-referrer-when-downgrade"
               ></iframe>
-              <p>Hephzibah Plaza, Atom Kpera Road, Makurdi</p>
+              <p>Hephzibah Plaza, Atom Kpera Road, Makurdi.</p>
             </div>
           </div>
         </div>
@@ -129,6 +140,8 @@
           <p>Copyright 2024</p>
         </div>
       </footer>
+
+      <script src="app.js"></script>
     </div>
   </body>
 </html>
