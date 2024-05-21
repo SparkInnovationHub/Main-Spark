@@ -56,7 +56,6 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  /* background-color: #000; */
 }
 
 .nav-bar ul {
@@ -86,7 +85,6 @@ body {
 .home-content1 {
   display: flex;
   justify-content: center;
-  /* background-color: yellow; */
   width: 100%;
   height: 50%;
   margin: 0 auto;
@@ -183,7 +181,6 @@ body {
   padding-top: 40px;
 }
 .home-content2 h2 {
-  /* background-color: red; */
   text-align: center;
   font-family: ID-bold;
   margin-bottom: -50px;
