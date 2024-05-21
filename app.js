@@ -14,24 +14,7 @@ document.getElementById('myButton3').addEventListener('click', function() {
 
 // Contact us form
 
-const inputs = document.querySelectorAll(".contact-input, .contact-input-a");
 
-function focusFunc(){
-    let parent = this.parentNode;
-    parent.classList.add("focus");
-}
-
-function blurFunc(){
-    let parent = this.parentNode;
-    if (this.value == "");{
-        parent.classList.remove("focus");
-    }
-}
-
-inputs.forEach((input) => {
-    input.addEventListener("focus", focusFunc);
-    input.addEventListener("blur", blurFunc);
-});
 
 /*  This code selects all elements with the class "input" on the document and adds event listeners for focus and blur events to them. 
 

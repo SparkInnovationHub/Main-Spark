@@ -1229,7 +1229,7 @@ footer {
   width: 798px;
   margin-right: 90px;
   position: relative;
-  bottom: 419.7px;
+  bottom: 400.7px;
   left: 200px;
 }
 
@@ -1249,6 +1249,7 @@ footer {
 .icon3a p {
   font-family: ID-regular;
   font-size: 13px;
+  font-weight: 200;
 }
 
 .btn-10 {

@@ -49,14 +49,18 @@
             </p>
           </div>
           <div class="contact-right">
-            <form action="https://formspree.io/f/xvoeyewl" method="post" class="contact-form">
+            <form
+              action="https://formspree.io/f/mjvndkqd"
+              method="post"
+              class="contact-form"
+            >
               <div class="input-container">
                 <input type="text" name="name" class="contact-input" required />
                 <label for="name">Name</label>
                 <span>Name</span>
               </div>
 
-              <div class="input-container ">
+              <div class="input-container">
                 <input
                   type="text"
                   name="email"
@@ -67,36 +71,29 @@
                 <span>Email</span>
               </div>
 
-              <div class="input-container ">
-                <input
-                type="tel"
-                name="phone"
-                class="contact-input"
-                required
-              />
-              <label for="phone">Phone Number</label>
-              <span>Phone Number</span>
-              </div> 
-
-              
-              <div class="input-container ">
-                <textarea
-                name="message"
-                id=""
-                class="contact-input-a"
-                required
-              ></textarea>
-              <label for="message">Message</label>
-              <span>Message</span>
+              <div class="input-container">
+                <input type="tel" name="phone" class="contact-input" required />
+                <label for="phone">Phone Number</label>
+                <span>Phone Number</span>
               </div>
-            
+
+              <div class="input-container">
+                <textarea
+                  name="message"
+                  id=""
+                  class="contact-input-a"
+                  required
+                ></textarea>
+                <label for="message">Message</label>
+                <span>Message</span>
+              </div>
 
               <button type="submit" class="btn-11">Send Message</button>
             </form>
           </div>
         </div>
       </section>
-      
+
       <footer class="footer">
         <div class="top">
           <img src="./assets/pattern.svg" />
@@ -141,7 +138,29 @@
         </div>
       </footer>
 
-      <script src="app.js"></script>
+      <script>
+        const inputs = document.querySelectorAll(
+          ".contact-input, .contact-input-a"
+        );
+
+        function focusFunc() {
+          let parent = this.parentNode;
+          parent.classList.add("focus");
+        }
+
+        function blurFunc() {
+          let parent = this.parentNode;
+          if (this.value == "")
+          {
+            parent.classList.remove("focus");
+          }
+        }
+
+        inputs.forEach((input) => {
+          input.addEventListener("focus", focusFunc);
+          input.addEventListener("blur", blurFunc);
+        });
+      </script>
     </div>
   </body>
 </html>
