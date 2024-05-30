@@ -58,27 +58,61 @@ body {
   align-items: center;
 }
 
-.nav-bar ul {
+.navbar ul {
   display: flex;
   justify-content: space-between;
   list-style: none;
 }
 
-.nav-bar ul li a {
+.navbar ul li a {
   padding: 0 15px;
   color: #032b44;
   transition: 0.5s ease;
 }
 
-.nav-bar ul li a:hover {
+.navbar ul li a:hover {
   color: #ffc107;
 }
 
-.logo {
-  font-size: 25px;
-  color: #032b44;
-  font-weight: 600;
-  font-family: ID-bold;
+.logo img{
+  width: 120px;
+}
+
+.main-close-sidebar-button, .main-menu-sidebar-button{
+  display: none;
+}
+
+.sidebar{
+  position: fixed;
+  top: 0; 
+  right: 0;
+  height: 100vh;
+  width: 80%;
+  /* background-color: rgba(255, 255, 255, 0.15); */
+  background-color: #032b44;
+  /* backdrop-filter: blur(12px); */
+  box-shadow: -10px 0 10px rgba(0, 0, 0, 0.1);
+  list-style: none;
+  display: none;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  transition:  1s ;
+}
+
+.sidebar li{
+  /* background-color: red; */
+  width: 100%;
+  padding: 15px;
+}
+.sidebar a{
+  width: 100%;
+  color: #fff;
+  font-size: 20px;
+}
+
+.sidebar.active {
+  display: flex;
 }
 
 /**** HOME PAGE CONTENT-1 ****/
@@ -170,6 +204,10 @@ body {
 
 .img-container2 img {
   width: 255px;
+}
+
+.img-container1a img{
+  display: none;
 }
 
 /**** HOME PAGE CONTENT-2 ****/
@@ -371,7 +409,7 @@ body {
   padding-bottom: 20px;
 }
 
-/** FOOTER 1 **/
+/** FOOTER **/
 footer {
   position: relative;
   top: 0;
@@ -416,6 +454,9 @@ footer {
   line-height: 2;
   margin-left: -45px;
 }
+.google-map-a{
+  display: none;
+}
 
 .google-map p {
   font-family: ID-regular;
@@ -441,10 +482,13 @@ footer {
   font-size: 24px;
 }
 
+.mobile-foot-logo{
+  display: none;
+}
+
 .spark {
   display: flex;
   justify-content: space-evenly;
-  /* background-color: brown; */
   align-items: center;
   margin-top: 2.5%;
 }
@@ -454,10 +498,8 @@ footer {
   font-size: 90px;
 }
 
-.logo-foot {
-  width: 182px;
-  height: 90px;
-  background-color: #ffffff;
+.logo-foot img{
+  width: 100px;
 }
 
 .footnote {

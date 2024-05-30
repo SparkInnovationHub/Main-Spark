@@ -18,19 +18,29 @@
   <body>
     <div class="home-page">
       <header class="head">
-        <a href="index.html" class="logo"
-          >Spark Innovation <br />
-          Hub</a
-        >
+        <a href="index.html" class="logo"><img src="/assets/Full Version of logo.png" alt="Spark Innovation Hub Logo"></a>
 
-        <nav class="nav-bar">
-          <ul>
+        <nav >
+          <a href="#" onclick=showSidebar()><svg class="main-menu-sidebar-button" xmlns="http://www.w3.org/2000/svg" height="45px" viewBox="0 -960 960 960" width="45px" fill="#000000"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></a>
+          <ul class="sidebar">
+            <li onclick=hideSidebar()><a href="#" ><svg  xmlns="http://www.w3.org/2000/svg" height="50px" viewBox="0 -960 960 960" width="50px" fill="#000"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></a></li>
             <li><a href="about.html">About Us</a></li>
             <li><a href="academy.html">Academy</a></li>
             <li><a href="co-workspace.html">Co-Workspace</a></li>
             <li><a href="under-construction.html">Community</a></li>
             <li><a href="contact.html">Contact Us</a></li>
           </ul>
+          
+          <div class="navbar">
+            <ul>
+              <li><a href="about.html">About Us</a></li>
+              <li><a href="academy.html">Academy</a></li>
+              <li><a href="co-workspace.html">Co-Workspace</a></li>
+              <li><a href="under-construction.html">Community</a></li>
+              <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+          </div>
+          
         </nav>
       </header>
       <section class="home-content1">
@@ -44,6 +54,9 @@
           <h2 class="subtext">Innovate - Collaborate - Accelerate</h2>
           <br />
           <br />
+          <div class="img-container1a">
+            <img src="./assets/home1.png" />
+          </div>
           <p class="home-paragraph">
             Discover Spark Innovation Hub: Your nexus for <br />
             transformative ideas, dynamic partnerships, <br />
@@ -160,10 +173,27 @@
               ></iframe>
               <p>Hephzibah Plaza, Atom Kpera Road, Makurdi.</p>
             </div>
+            <div class="google-map-a">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3953.682805543164!2d8.519792673699792!3d7.71714250814535!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x105081b4aa63a059%3A0x2940dbb4eeb5df23!2sSpark%20Innovation%20Hub!5e0!3m2!1sen!2sng!4v1715205444476!5m2!1sen!2sng"
+                width="360"
+                height="200"
+                style="border: 0"
+                allowfullscreen=""
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+              ></iframe>
+              <p>Hephzibah Plaza, Atom Kpera Road, Makurdi.</p>
+            </div>
           </div>
         </div>
+        <div class="mobile-foot-logo">
+          <a href="index.html" class="logo"><img src="/assets/White Full.png" alt="Spark Innovation Hub Logo"></a>
+        </div>
         <div class="spark">
-          <div class="logo-foot"></div>
+          <div class="logo-foot">
+            <img src="/assets/White.png" alt="Spark Innovation Hub Logo">
+          </div>
           <h1 class="spark-foot">Spark Innovation Hub</h1>
         </div>
         <div class="footnote">
@@ -171,5 +201,16 @@
         </div>
       </footer>
     </div>
+
+    <script>
+      function showSidebar(){
+      const sidebar = document.querySelector('.sidebar')
+      sidebar.style.display = 'flex'
+    }
+    function hideSidebar(){
+      const sidebar = document.querySelector('.sidebar')
+      sidebar.style.display = 'none'
+    }
+    </script>
   </body>
 </html>
