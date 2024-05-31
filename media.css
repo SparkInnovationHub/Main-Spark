@@ -206,7 +206,7 @@
 
   .img-container1a img {
     display: block;
-    width: 400px;
+    width: 100%;
     padding-bottom: 5px;
   }
 
@@ -236,10 +236,18 @@
     padding-bottom: 0px;
   }
 
+  .home-box2 p{
+    text-align: start;
+  }
+
 
   /* HOME CONTENT-3 */
   .home-content3 img{
     width: 85%;
+  }
+
+  .home-content3 p{
+    text-align: start;
   }
 
    /* HOME CONTENT-4 */
@@ -259,8 +267,6 @@
     top: 0; */
     width: 100%;
     height: 100%;
-    background-color: #032b44;
-    color: #ffffff;
   }
 
   .foot-details {
@@ -269,6 +275,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    padding-top: 5%;
   }
 
   .col-1{
@@ -281,7 +288,11 @@
     font-family: ID-regular;
     font-size: 20px;
     font-weight: 200;
-    line-height: 1.5;
+    line-height: 1.3;
+  }
+
+  .imgs p {
+    margin-top: 7%;
   }
 
   .google-map-a{
@@ -324,11 +335,112 @@
   .footnote p {
     text-align: center;
     font-family: ID-regular;
-    font-size: 12px;
+    font-size: 10px;
     font-weight: 400;
     letter-spacing: 2px;
+    padding-bottom: 5px;
   }
 
+
+
+}
+
+/* Home Page */
+@media (max-width: 360px){
+  /* HOME CONTENT-1 */
+  .textbox h1{
+    font-size: 38px;
+  }
+
+  .textbox h2{
+    font-size: 15px;
+  }
+
+  .textbox p{
+    font-size: 14px;
+  }
+
+  /* HOME CONTENT-2 */
+  .home-content2 h2{
+    font-size: 28px;
+  }
+
+  .home-content2 h3{
+    font-size: 20px;
+  }
+
+  .home-content2 p{
+    font-size: 14px;
+    margin-top: -5%;
+  }
+
+  /* HOME CONTENT-3 */
+  .home-content3 h2{
+    font-size: 28px;
+  }
+
+  .home-content3 p{
+    font-size: 14px;
+    /* margin-top: -5%; */
+  }
+
+   /* HOME CONTENT-4 */
+   .home-content4 h2{
+    font-size: 32px;
+  }
+
+  /* FOOTER */
+  footer {
+    width: 100%;
+    min-height: 100%;
+  }
+
+  .google-map-a{
+    display: none;
+  }
+
+  .google-map-b{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    /* justify-content: center; */
+  }
+
+  .google-map-b p{
+    font-family: ID-regular;
+  font-weight: 300;
+  text-align: center;
+  font-size: 16px;
+  }
+
+  .col-1{
+    margin: 0px;
+    line-height: 1;
+    padding-bottom: 5%;
+  }
+
+  .col-1 p {
+    font-family: ID-regular;
+    font-size: 18px;
+    font-weight: 200;
+    line-height: 1.3;
+  }
+
+  .span-4 {
+    font-size: 20px;
+  }
+
+  .imgs img {
+    width: 28px;
+    height: 28px;
+  }
+
+  .img-text{
+    margin-top: -3%;
+  }
 
 
 }

@@ -435,7 +435,6 @@ footer {
 
 .imgs {
   display: flex;
-  /* background-color: red; */
 }
 
 .imgs img {
@@ -450,11 +449,15 @@ footer {
 }
 
 .col-1 {
-  /* background-color: yellow; */
   line-height: 2;
   margin-left: -45px;
 }
+
 .google-map-a{
+  display: none;
+}
+
+.google-map-b{
   display: none;
 }
 
@@ -630,7 +633,7 @@ footer {
 }
 
 .about3 {
-  height: 600px;
+  min-height: 600px;
   width: 95vw;
   background-color: #032b44;
   display: flex;
