@@ -188,6 +188,10 @@
     font-size: 30px; */
   }
 
+  nav ul li{
+    font-family: ID-bold;
+  }
+
   .main-menu-sidebar-button {
     display: block;
   }
@@ -466,6 +470,17 @@
 
   .img-text{
     margin-top: -3%;
+  }
+
+
+  .about1 {
+    background: linear-gradient(89.38deg, #000 26.82%, transparent);
+    align-items: flex-start;
+    padding: 52px 107px 49px;
+    min-height: 457px;
+    z-index: 1;
+    color: #ffffff;
+    position: relative;
   }
 
 

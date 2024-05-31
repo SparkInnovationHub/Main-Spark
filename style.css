@@ -87,7 +87,7 @@ body {
   top: 0; 
   right: 0;
   height: 100vh;
-  width: 80%;
+  width: 90%;
   /* background-color: rgba(255, 255, 255, 0.15); */
   background-color: #032b44;
   /* backdrop-filter: blur(12px); */
@@ -531,7 +531,7 @@ footer {
   background-size: 100%;
   background-repeat: no-repeat;
   background-position: center;
-  height: 50%;
+  /* height: 50%; */
   margin: 0 auto;
 }
 
@@ -539,9 +539,11 @@ footer {
   background: linear-gradient(89.38deg, #000 26.82%, transparent);
   align-items: flex-start;
   padding: 52px 107px 49px;
-  height: 457px;
+  /* min-height: 457px; */
+  height: 100%;
   z-index: 1;
   color: #ffffff;
+  position: relative;
 }
 
 .about1 h1 {
