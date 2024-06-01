@@ -374,7 +374,7 @@
   /* HOME CONTENT-1 */
   .head {
     width: 100%;
-    padding: 35px 4%;
+    padding: 20px 4%;
     padding-bottom: 10px;
   }
 
@@ -411,6 +411,7 @@
 
   .btn-1 {
     font-size: 12px;
+    padding: 12px 28px;
   }
 
   /* HOME CONTENT-2 */
@@ -446,6 +447,15 @@
     line-height: 1.5;
   }
 
+  .register-btn1 {
+    height: 80px;
+  }
+
+  .btn-2 {
+    font-size: 12px;
+    padding: 12px 28px;
+  }
+
   /* HOME CONTENT-3 */
 .home-content3-span{
   color: black;
@@ -461,9 +471,26 @@
     /* margin-top: -5%; */
   }
 
+  .home-content3-span-b{
+    font-family: ID-regular;
+  }
+
+  .register-btn2 {
+    height: 80px;
+  }
+
+  .btn-3 {
+    font-size: 12px;
+    padding: 12px 28px;
+  }
+
    /* HOME CONTENT-4 */
    .home-content4 h2{
     font-size: 24px;
+  }
+
+  .img-box1 h3 {
+    font-size: 16px;
   }
 
   /* FOOTER */
@@ -497,26 +524,50 @@
     margin: 0px;
     line-height: 1;
     padding-bottom: 5%;
+    margin-left: -25%;
   }
 
   .col-1 p {
     font-family: ID-regular;
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 200;
     line-height: 1.3;
   }
 
   .span-4 {
-    font-size: 20px;
+    font-size: 16px;
   }
 
   .imgs img {
-    width: 28px;
-    height: 28px;
+    width: 18px;
+    height: 18px;
   }
 
   .img-text{
-    margin-top: -3%;
+    margin-top: 1%;
+    display: inline-block;
+  }
+
+  .img-text p{
+    margin-top: 4%;
+  }
+
+  .mobile-foot-logo{
+    padding: 1%;
+  }
+
+  .mobile-foot-logo-click{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    font-size: 27px;
+    font-family: ID-bold;
+    color: #fff;
+  }
+
+  .mobile-foot-logo-click img{
+    width: 30px;
   }
 
   /* About Page */
