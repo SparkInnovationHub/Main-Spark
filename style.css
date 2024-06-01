@@ -526,24 +526,18 @@ footer {
   margin: 0 auto;
 }
 
-.about-content1 {
-  background-image: url("./assets/about1c 600x.png");
-  background-size: 100%;
-  background-repeat: no-repeat;
-  background-position: center;
-  /* height: 50%; */
+.about-content1 {                       
+  background: linear-gradient(to left, rgba(0, 0, 0, 0.596), rgb(0, 0, 0)), 
+                        url('./assets/about1c 600x.png') no-repeat center center/cover; 
+  height: 457px;
   margin: 0 auto;
 }
 
 .about1 {
-  background: linear-gradient(89.38deg, #000 26.82%, transparent);
-  align-items: flex-start;
-  padding: 52px 107px 49px;
-  /* min-height: 457px; */
-  height: 100%;
   z-index: 1;
   color: #ffffff;
-  position: relative;
+  padding-top: 4%;
+  padding-left: 8%;
 }
 
 .about1 h1 {
@@ -556,7 +550,6 @@ footer {
   font-family: ID-regular;
   font-size: 20px;
   font-weight: 400;
-  /* background-color: red; */
   padding: 22px;
   padding-left: 0;
 }
@@ -597,7 +590,6 @@ footer {
   justify-content: center;
   align-items: flex-start;
   width: 900px;
-  /* background-color: red; */
   margin-right: 120px;
 }
 
@@ -611,7 +603,6 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
-  /* background-color: orange; */
 }
 
 .about2b p {

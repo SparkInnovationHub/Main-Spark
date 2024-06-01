@@ -472,15 +472,98 @@
     margin-top: -3%;
   }
 
+  /* About Page */
 
-  .about1 {
-    background: linear-gradient(89.38deg, #000 26.82%, transparent);
-    align-items: flex-start;
-    padding: 52px 107px 49px;
-    min-height: 457px;
-    z-index: 1;
-    color: #ffffff;
-    position: relative;
+  /* ABOUT PAGE CONTENT-1 */
+  .about-content1{
+    height: 150px;
+    /* height: 100%; */
+  }
+
+  .about1 h1 {
+    font-size: 20px;
+    line-height: 1;
+  }
+
+  .about1 h2 {
+    font-size: 10px;
+    margin-bottom: -5%;
+  }
+
+  .btn-4 {
+    width: 8px;
+    cursor: pointer;
+    background-color: #ffc107;
+    color: #032b44;
+    font-family: ID-regular;
+    font-weight: 800;
+    padding: 3px 10px;
+    border-radius: 50px;
+    font-size: 10px;
+    border: 0;
+  }
+  
+  .btn-4:hover {
+    transform: scale(0.9);
+    background-color: transparent;
+    border: 2px solid #ffc107;
+    color: #ffc107;
+    transition: 0.4s;
+  }
+
+  
+  /* ABOUT PAGE CONTENT-2 */
+  .about-content2{
+    flex-direction: column;
+    min-height: 100%;
+    gap: 12px;
+    margin-bottom: 100%;
+  }
+
+  .about2a {
+    text-align: center;
+    width: 100%;
+    margin-right: 0px;
+  }
+
+  .about2a h2 {
+    padding-top: 0px;
+  }
+
+  .about2b p{
+    text-align: left;
+    font-size: 18px;
+  }
+
+
+  /* ABOUT PAGE CONTENT-3 */
+  .about3{
+    gap: 15px;
+  }
+
+  .inner3e {
+    width: 345px;
+    height: 234px;
+  }
+
+  .inn-head h2 {
+    font-family: ID-bold;
+    font-size: 24px;
+  }
+
+   /* ABOUT PAGE CONTENT-4 */
+   .about4-body {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  /* ABOUT PAGE CONTENT-5 */
+  .about-content5 {
+    flex-direction: column;
+  }
+
+  .about5a img {
+    display: none;
   }
 
 
