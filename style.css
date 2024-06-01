@@ -238,6 +238,10 @@ body {
   width: 525px;
 }
 
+.break-on-mobile{
+  display: none;
+}
+
 .register-btn1 {
   background-color: #ffc107;
   height: 100px;
