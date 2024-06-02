@@ -82,13 +82,18 @@ body {
   display: none;
 }
 
+.hamburger-menu{
+  display: none;
+}
+
 .sidebar{
   position: fixed;
   top: 0; 
   right: 0;
   height: 100vh;
   width: 90%;
-  background-color: #032b44;
+  background: linear-gradient(rgba(0, 0, 0, 0.836), rgba(0, 0, 0, 0), rgba(0, 153, 248, 0.5)), 
+  #032b44;
   box-shadow: -10px 0 10px rgba(0, 0, 0, 0.1);
   list-style: none;
   display: none;
@@ -96,12 +101,14 @@ body {
   align-items: flex-start;
   justify-content: flex-start;
   transition:  1s ;
+  z-index: 99999;
 }
 
 .sidebar li{
-  /* background-color: red; */
-  width: 100%;
   padding: 15px;
+  font-family: ID-regular;
+  font-weight: 300;
+  font-size: 14px;
 }
 .sidebar a{
   width: 100%;
@@ -887,7 +894,7 @@ footer {
 }
 
 .work-content1 {
-  height: 50%;
+  /* height: 50%; */
   margin: 0 auto;
   display: flex;
   justify-content: center;
@@ -897,26 +904,22 @@ footer {
 }
 
 .work-content1 img {
-  width: 1065px;
-  height: 454px;
+  max-width: 1065px;
+  max-height: 454px;
   border-radius: 20px;
 }
 
 .work1 {
   position: absolute;
-  /* padding: 20px; */
-  text-align: left;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
 }
 
 .work1a {
-  width: 1200px;
-  /* background-color: #009dff; */
+  max-width: 1200px;
   display: flex;
-  align-items: flex-end;
-  justify-content: space-evenly;
+  align-items: center;
+  justify-content: center;
+  gap: 200px;
+  /* gap: 50%; */
 }
 
 .work1 h1 {
@@ -924,7 +927,7 @@ footer {
   font-size: 72px;
   margin: 0;
   line-height: 1.3;
-  padding-top: 160px;
+  padding-top: 17%;
 }
 
 .btn-6 {
@@ -937,6 +940,9 @@ footer {
   font-size: 18px;
   font-weight: 800;
   border: 0;
+  position: relative;
+  top: 150px;
+  text-align: center;
 }
 
 .btn-6:hover {
@@ -949,11 +955,10 @@ footer {
 
 .work-content2 {
   width: 80%;
-  height: 400px;
   margin: 0 auto;
   line-height: 1.9;
-  margin-top: 20px;
-  /* background-color: purple; */
+  padding-top: 3%;
+  padding-bottom: 3%;
 }
 
 .work-content2 h2 {
@@ -961,11 +966,9 @@ footer {
   font-size: 38px;
   color: #000000;
   margin-left: -25px;
-  /* background-color: red; */
 }
 
 .work-content2 li {
-  /* background-color: purple; */
   font-family: ID-regular;
   font-size: 18px;
   color: #000000;
@@ -976,9 +979,7 @@ footer {
 .work-content3 {
   width: 100%;
   background-color: #eeeeed;
-  /* height: 600px; */
   margin: 0 auto;
-  margin-bottom: 50px;
   padding-bottom: 40px;
   color: #ffffff;
 }
@@ -986,7 +987,7 @@ footer {
 .work3-head h2 {
   font-family: ID-bold;
   font-size: 36px;
-  padding: 20px 90px;
+  padding: 2% 6.7%;
   color: #000000;
 }
 
@@ -997,7 +998,6 @@ footer {
   flex-flow: wrap;
   margin: 0 110px;
   margin-left: 50px;
-  /* background-color: orangered; */
 }
 
 .w3box-1a {
@@ -1240,16 +1240,22 @@ footer {
   max-width: 1280px;
   width: 100%;
   margin: 0 auto;
+  overflow: hidden;
 }
 
 .academy-content1 {
-  width: 1065px;
-  height: 450px;
-  margin-left: 100px;
-  padding-left: 67px;
+  min-height: 460px;
+  width: 85%;
   background-color: #ffc107;
   border-radius: 44px;
-  margin-bottom: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.academy-left{
+  padding-left: 5%;
 }
 
 .academy-left h1 {
@@ -1257,24 +1263,24 @@ footer {
   font-size: 80px;
   color: #032b44;
   line-height: 1;
-  /* background-color: red; */
-  padding: 50px 0px 0px;
 }
 
+.academy-right {
+  width: 500px;
+}
 .academy-right img {
-  width: 798px;
-  margin-right: 90px;
+  max-width: 800px;
   position: relative;
-  bottom: 400.7px;
-  left: 200px;
+  right: 59.6%;
+  top: 5px;
 }
 
 .academy-icons {
   display: flex;
   justify-content: space-evenly;
   /* background-color: rebeccapurple; */
-  padding: 30px 0px 30px;
-  width: 40%;
+  padding: 7% 0px 9%;
+  width: 60%;
   text-align: center;
 }
 
@@ -1322,10 +1328,10 @@ footer {
 .academy2 {
   display: flex;
   justify-content: space-evenly;
-  /* background-color: red; */
-  margin-left: 90px;
-  margin-right: 100px;
-  margin-bottom: 50px;
+  gap: 1px;
+  flex-wrap: wrap;
+  margin-left: 5%;
+  margin-right: 5%;
 }
 
 .course-box {
@@ -1334,12 +1340,37 @@ footer {
   background-color: #032b44;
   border-radius: 10px;
   display: flex;
+  flex-direction: column;
+  gap: 12%;
   justify-content: center;
   align-items: center;
 }
 
 .course-box img {
   width: 167px;
+}
+
+.btn-10a {
+  font-family: ID-regular;
+  cursor: pointer;
+  background-color: #fff;
+  color: #032b44;
+  padding: 9px 25px;
+  border-radius: 10px;
+  font-size: 18px;
+  border: 0;
+}
+
+.btn-10a:hover {
+  /* transform: scale(0.9); */
+  background-color: transparent;
+  border: 2px solid #fff;
+  color: #fff;
+  transition: 0.4s;
+}
+
+.course-box-unique{
+   margin-bottom: -19%;
 }
 
 .academy2a p {
@@ -1350,6 +1381,18 @@ footer {
   padding: 20px 0px;
 }
 
+/* ACADEMY CONTENT-3 */
+.academy-content3 {
+  width: 85%;
+  margin: 0 auto;
+  line-height: 1.5;
+  padding-bottom: 5%;
+}
+
+.academy-content3 ul{
+  padding-left: 2%;
+}
+
 /* CONTACT US PAGE */
 .contact-page {
   max-width: 1280px;
@@ -1358,14 +1401,12 @@ footer {
 }
 
 .form-container {
-  /* background-color: red; */
-  width: 1080px;
-  height: 5;
+  max-width: 1080px;
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
   margin: 0 auto;
-  margin-bottom: 50px;
+  padding-bottom: 5%;
 }
 
 .contact-form {
@@ -1373,23 +1414,23 @@ footer {
 }
 
 .contact-right {
-  display: flex;
   background-color: #032b44;
-  /* height: 637px; */
-  width: 552px;
+  max-width: 552px;
+  width: 40%;
   line-height: 3;
-  padding: 20px;
+  padding: 2%;
   color: #ffffff;
   border-radius: 30px;
+  gap: 122px;
 }
 
 .contact-left {
-  /* background-color: yellow; */
-  width: 320px;
+  max-width: 320px;
 }
 
 .contact-input {
-  width: 486.1px;
+  max-width: 486.1px;
+  width: 100%;
   outline: none;
   height: 45.29px;
   border-radius: 32.35px;
@@ -1404,7 +1445,8 @@ footer {
 }
 
 .contact-input-a {
-  width: 486.1px;
+  max-width: 486.1px;
+  width: 100%;
   border-radius: 4px;
   background-color: transparent;
   border: 2px solid rgb(185, 168, 168);
@@ -1546,7 +1588,6 @@ footer {
 .admission-content{
   display: flex;
   justify-content: space-evenly;
-  /* align-items: center; */
   position: relative;
   bottom: 70px;
 }
@@ -1559,13 +1600,11 @@ footer {
   display: flex;
   flex-direction: column;
   align-items: center;
-  /* line-height: 2; */
 }
 
 .admission-right{
   width: 500px;
   height: 500px;
-  /* background-color: #000; */
   color: #000;
   padding: 0 50px;
   overflow: hidden;
@@ -1666,20 +1705,19 @@ input:valid{
 
 /* CONSTRUCTION PAGE */
 .construction-img img{
-  width: 400px;
+  max-width: 400px;
 }
 
 .construction-body{
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 5px 8%;
-  padding-bottom: 55px;
+  padding: 0px 8%;
+   
 }
 
 .construction-text{
-  /* line-height: 2; */
-  width: 500px;
+  max-width: 500px;
 }
 
 .construction-text h1{
