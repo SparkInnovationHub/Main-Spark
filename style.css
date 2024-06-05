@@ -90,7 +90,7 @@ body {
   position: fixed;
   top: 0; 
   right: 0;
-  height: 100vh;
+  height: 100%;
   width: 90%;
   background: linear-gradient(rgba(0, 0, 0, 0.836), rgba(0, 0, 0, 0), rgba(0, 153, 248, 0.5)), 
   #032b44;
@@ -437,8 +437,12 @@ footer {
   margin-top: 4%;
   display: flex;
   justify-content: space-evenly;
-  /* background-color: red; */
+  color: #fff;
   align-items: flex-start;
+}
+
+.foot-details a{
+  color: #fff;
 }
 
 .imgs {
@@ -446,10 +450,13 @@ footer {
 }
 
 .imgs img {
-  width: 38px;
-  height: 38px;
+  width: 28px;
+  height: 28px;
+}
+
+.imgs a {
+  margin-top: 6%;
   margin-right: 2%;
-  margin-top: 5%;
 }
 
 .imgs p {
@@ -839,7 +846,7 @@ footer {
 .about5b {
   height: 475px;
   background-color: #e8e8e8;
-  width: 409px;
+  max-width: 409px;
   border-radius: 20px;
   text-align: center;
   display: flex;

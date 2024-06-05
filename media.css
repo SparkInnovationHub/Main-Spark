@@ -35,11 +35,40 @@
   .home-page {
     max-width: 1500px;
     width: 100%;
-    /* background-color: grey; */
-    /* margin-left: 0px; */
-    margin-right: auto;
-    margin-bottom: auto;
+    margin: 0 auto;
     overflow: hidden;
+  }
+
+  .about-page {
+    max-width: 1500px;
+    width: 100%;
+    margin: 0 auto;
+    overflow: hidden;
+  }
+
+  .academy-page {
+    max-width: 1500px;
+    width: 100%;
+    margin: 0 auto;
+    overflow: hidden;
+  }
+
+  .co-workspace-page {
+    max-width: 1500px;
+    width: 100%;
+    margin: 0 auto;
+    overflow: hidden;
+  }
+
+  .contact-page {
+    max-width: 1500px;
+    width: 100%;
+    margin: 0 auto;
+    overflow: hidden;
+  }
+
+  .footnote {
+    margin-top: 0%;
   }
 
   .head {
@@ -569,7 +598,6 @@
   /* ABOUT PAGE CONTENT-1 */
   .about-content1 {
     height: 150px;
-    /* height: 100%; */
   }
 
   .about1 h1 {
