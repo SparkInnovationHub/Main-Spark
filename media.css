@@ -822,3 +822,9 @@
   }
 
 }
+
+@media (max-width: 360px){
+  .about-content2 {
+    margin-bottom: 70%;
+  }
+}
