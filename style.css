@@ -1569,7 +1569,7 @@ footer {
   max-width: 1380px;
   width: 100%;
   margin: 0 auto;
-  height: 100%;
+  max-height: 100%;
   /* background-color: green;  */
 }
 
@@ -1593,7 +1593,7 @@ footer {
 }
 
 .admission-left{
-  /* background-color: purple; */
+  background-color: purple;
   margin-left: 100px;
   width: 400px;
   height: 500px;
@@ -1625,9 +1625,10 @@ footer {
 }
 
 .admission-image{
-  width: 720px;
+  width: 550px;
   position: relative;
-  bottom: 0px;
+  /* bottom: 0px; */
+  top: 50px;
 }
 
 textarea{
@@ -1683,7 +1684,6 @@ input:valid{
   font-weight: 500;
   font-size: 12px;
   padding: 5px;
-  
 }
 
 /* CO-WORKSPACE FORM PAGE */
