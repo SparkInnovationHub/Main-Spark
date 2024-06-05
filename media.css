@@ -392,7 +392,8 @@
 }
 
 /* Home Page */
-@media (max-width: 360px) {
+/* To be adjusted from 500px back to 360px */
+@media (max-width: 500px) {
   /* HOME CONTENT-1 */
   .head {
     width: 100%;
@@ -636,7 +637,7 @@
     flex-direction: column;
     min-height: 100%;
     gap: 12px;
-    margin-bottom: 100%;
+    margin-bottom: 20%;
   }
 
   .about2a {
@@ -711,7 +712,7 @@
   .academy-right img {
     max-width: 350px;
     position: relative;
-    right: -9.9%;
+    right: -16.6%;
     top: 5.5px;
   }
 
