@@ -108,12 +108,11 @@ body {
   padding: 15px;
   font-family: ID-regular;
   font-weight: 300;
-  font-size: 14px;
 }
 .sidebar a{
   width: 100%;
   color: #fff;
-  font-size: 20px;
+  font-size: 14px;
 }
 
 .sidebar.active {
@@ -714,7 +713,6 @@ footer {
 }
 
 .inn-body {
-  /* background-color: orangered; */
   height: 70%;
   display: flex;
   justify-content: flex-start;
@@ -810,10 +808,14 @@ footer {
   padding: 25px 8%;
 }
 
+.show-on-360{
+  display: none;
+}
+
 .a4body-1 {
   margin: 0 10px;
   text-align: center;
-  line-height: 1.2;
+  line-height: 1.4;
 }
 
 .a4body-1 h3 {
@@ -869,7 +871,6 @@ footer {
   font-weight: 400;
   text-align: left;
   line-height: 1.5;
-  /* background-color: #FFC107; */
   margin: 0 55px;
 }
 
@@ -1396,8 +1397,13 @@ footer {
   padding-bottom: 5%;
 }
 
+.academy-content3 h2{
+  font-size: 26px;
+}
+
 .academy-content3 ul{
   padding-left: 2%;
+  font-size: 14px;
 }
 
 /* CONTACT US PAGE */
