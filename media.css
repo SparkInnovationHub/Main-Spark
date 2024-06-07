@@ -453,9 +453,9 @@
   }
 
   .img-container3 img {
-    width: 350px;
-    margin-left: -29px;
+    max-width: 350px;
     overflow: hidden;
+    margin: 0 auto;
   }
 
   .home-content2 h3 {
@@ -481,10 +481,6 @@
   }
 
   /* HOME CONTENT-3 */
-  .home-content3-span {
-    color: black;
-  }
-
   .home-content3 h2 {
     font-size: 24px;
     padding-right: 2%;
@@ -714,11 +710,16 @@
     line-height: 1;
   }
 
+  .academy-right {
+    overflow: hidden;
+  }
+
   .academy-right img {
-    max-width: 350px;
+    width: 100%;
     position: relative;
-    right: -16.6%;
-    top: 5.5px;
+    right: 0%;
+    /* top: 5.5px; */
+    display: block;
   }
 
   .academy-icons {
@@ -749,18 +750,19 @@
     font-size: 14px;
   }
 
-  .academy-content3{
+  .academy-content3 {
     margin: 0px auto;
     margin-left: 10%;
   }
 
-  .academy-content3 h2{
+  .academy-content3 h2 {
     font-size: 18px;
   }
 
-  .academy-content3 ul{
+  .academy-content3 ul {
     padding-left: 0px;
     font-size: 14px;
+    margin-left: 5%;
   }
 
   /* CO-WORKSPACE PAGE */
@@ -854,6 +856,10 @@
   .contact-left p {
     font-size: 14px;
   }
+
+  .btn-11 {
+    font-size: 18px;
+  }
 }
 
 @media (max-width: 360px) {
@@ -911,8 +917,8 @@
   }
 
   /* ACADEMY */
-
-  .academy-right img {
-    right: -9.8%;
+  .academy-content1 {
+    gap: 70px;
   }
+
 }

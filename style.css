@@ -74,42 +74,47 @@ body {
   color: #ffc107;
 }
 
-.logo img{
+.logo img {
   width: 120px;
 }
 
-.main-close-sidebar-button, .main-menu-sidebar-button{
+.main-close-sidebar-button,
+.main-menu-sidebar-button {
   display: none;
 }
 
-.hamburger-menu{
+.hamburger-menu {
   display: none;
 }
 
-.sidebar{
+.sidebar {
   position: fixed;
-  top: 0; 
+  top: 0;
   right: 0;
   height: 100%;
   width: 90%;
-  background: linear-gradient(rgba(0, 0, 0, 0.836), rgba(0, 0, 0, 0), rgba(0, 153, 248, 0.5)), 
-  #032b44;
+  background: linear-gradient(
+      rgba(0, 0, 0, 0.836),
+      rgba(0, 0, 0, 0),
+      rgba(0, 153, 248, 0.5)
+    ),
+    #032b44;
   box-shadow: -10px 0 10px rgba(0, 0, 0, 0.1);
   list-style: none;
   display: none;
   flex-direction: column;
   align-items: flex-start;
   justify-content: flex-start;
-  transition:  1s ;
+  transition: 1s;
   z-index: 99999;
 }
 
-.sidebar li{
+.sidebar li {
   padding: 15px;
   font-family: ID-regular;
   font-weight: 300;
 }
-.sidebar a{
+.sidebar a {
   width: 100%;
   color: #fff;
   font-size: 14px;
@@ -210,7 +215,7 @@ body {
   width: 255px;
 }
 
-.img-container1a img{
+.img-container1a img {
   display: none;
 }
 
@@ -244,7 +249,7 @@ body {
   width: 525px;
 }
 
-.break-on-mobile{
+.break-on-mobile {
   display: none;
 }
 
@@ -440,7 +445,7 @@ footer {
   align-items: flex-start;
 }
 
-.foot-details a{
+.foot-details a {
   color: #fff;
 }
 
@@ -467,11 +472,11 @@ footer {
   margin-left: -45px;
 }
 
-.google-map-a{
+.google-map-a {
   display: none;
 }
 
-.google-map-b{
+.google-map-b {
   display: none;
 }
 
@@ -499,7 +504,7 @@ footer {
   font-size: 24px;
 }
 
-.mobile-foot-logo{
+.mobile-foot-logo {
   display: none;
 }
 
@@ -515,7 +520,7 @@ footer {
   font-size: 90px;
 }
 
-.logo-foot img{
+.logo-foot img {
   width: 100px;
 }
 
@@ -540,9 +545,9 @@ footer {
   margin: 0 auto;
 }
 
-.about-content1 {                       
-  background: linear-gradient(to left, rgba(0, 0, 0, 0.596), rgb(0, 0, 0)), 
-                        url('./assets/about1c 600x.png') no-repeat center center/cover; 
+.about-content1 {
+  background: linear-gradient(to left, rgba(0, 0, 0, 0.596), rgb(0, 0, 0)),
+    url("./assets/about1c 600x.png") no-repeat center center/cover;
   height: 457px;
   margin: 0 auto;
 }
@@ -808,7 +813,7 @@ footer {
   padding: 25px 8%;
 }
 
-.show-on-360{
+.show-on-360 {
   display: none;
 }
 
@@ -1262,7 +1267,7 @@ footer {
   margin: 0 auto;
 }
 
-.academy-left{
+.academy-left {
   padding-left: 5%;
 }
 
@@ -1274,8 +1279,9 @@ footer {
 }
 
 .academy-right {
-  width: 500px;
+  max-width: 500px;
 }
+
 .academy-right img {
   max-width: 800px;
   position: relative;
@@ -1377,8 +1383,8 @@ footer {
   transition: 0.4s;
 }
 
-.course-box-unique{
-   margin-bottom: -19%;
+.course-box-unique {
+  margin-bottom: -19%;
 }
 
 .academy2a p {
@@ -1397,13 +1403,16 @@ footer {
   padding-bottom: 5%;
 }
 
-.academy-content3 h2{
+.academy-content3 h2 {
+  font-family: ID-bold;
   font-size: 26px;
 }
 
-.academy-content3 ul{
+.academy-content3 ul {
   padding-left: 2%;
   font-size: 14px;
+  font-family: ID-regular;
+  font-weight: 400;
 }
 
 /* CONTACT US PAGE */
@@ -1498,7 +1507,7 @@ footer {
   transform: translateY(0);
 }
 
-.input-container span{
+.input-container span {
   position: absolute;
   top: 0;
   left: 25px;
@@ -1511,7 +1520,7 @@ footer {
 }
 
 .input-container span::before,
-.input-container span::after{
+.input-container span::after {
   content: "";
   position: absolute;
   width: 10%;
@@ -1523,15 +1532,15 @@ footer {
   transform: translateY(-50%);
 }
 
-.input-container span::before{
+.input-container span::before {
   left: 50%;
 }
 
-.input-container span::after{
+.input-container span::after {
   right: 50%;
 }
 
-.input-container.focus label{
+.input-container.focus label {
   top: 0;
   transform: translateY(-50%);
   left: 25px;
@@ -1539,7 +1548,7 @@ footer {
 }
 
 .input-container.focus span::before,
-.input-container.focus span::after{
+.input-container.focus span::after {
   width: 50%;
   opacity: 1;
 }
@@ -1565,15 +1574,19 @@ footer {
   transition: 0.4s;
 }
 
-.contact-left h2{
+.contact-left h2 {
   font-family: ID-bold;
   font-size: 48px;
 }
 
-.contact-left p{
+.contact-left p {
   font-family: ID-regular;
   font-size: 18px;
   font-weight: 500;
+  color: #032b44;
+}
+
+.contact-left a {
   color: #032b44;
 }
 
@@ -1586,7 +1599,7 @@ footer {
   /* background-color: green;  */
 }
 
-.admission-img{
+.admission-img {
   transform: rotate(270deg);
   overflow: hidden;
   position: relative;
@@ -1594,18 +1607,18 @@ footer {
   bottom: 90px;
 }
 
-.admission-img img{
+.admission-img img {
   height: 100px;
 }
 
-.admission-content{
+.admission-content {
   display: flex;
   justify-content: space-evenly;
   position: relative;
   bottom: 70px;
 }
 
-.admission-left{
+.admission-left {
   background-color: purple;
   margin-left: 100px;
   width: 400px;
@@ -1615,7 +1628,7 @@ footer {
   align-items: center;
 }
 
-.admission-right{
+.admission-right {
   width: 500px;
   height: 500px;
   color: #000;
@@ -1623,39 +1636,39 @@ footer {
   overflow: hidden;
 }
 
-.admission-left h1{
+.admission-left h1 {
   font-family: ID-bold;
   font-size: 40px;
   color: #000;
   padding-right: 70px;
 }
 
-.admission-left p{
+.admission-left p {
   font-family: ID-regular;
   font-size: 18px;
   color: #000;
   line-height: 1.5;
 }
 
-.admission-image{
+.admission-image {
   width: 550px;
   position: relative;
   /* bottom: 0px; */
   top: 50px;
 }
 
-textarea{
+textarea {
   resize: none;
   padding: 5px;
 }
 
-.input-box{
+.input-box {
   margin: 30px 0;
   position: relative;
   /* background-color: red; */
 }
 
-.input{
+.input {
   width: 400px;
   border-radius: 32.35px;
   border: 2px solid #000;
@@ -1671,7 +1684,7 @@ textarea{
   transition: 0.3s ease;
 }
 
-.input-box label{
+.input-box label {
   position: absolute;
   top: 50%;
   left: 10px;
@@ -1685,12 +1698,12 @@ textarea{
 }
 
 input:focus,
-input:valid{
+input:valid {
   border: 2px solid #ffc107;
 }
 
-.input-box .input:focus+label,
-.input-box .input:valid+label{
+.input-box .input:focus + label,
+.input-box .input:valid + label {
   top: -5px;
   left: 10px;
   background: #fff;
@@ -1700,7 +1713,7 @@ input:valid{
 }
 
 /* CO-WORKSPACE FORM PAGE */
-.co-workspace-form-page{
+.co-workspace-form-page {
   max-width: 1380px;
   width: 100%;
   margin: 0 auto;
@@ -1708,7 +1721,7 @@ input:valid{
   /* background-color: green;  */
 }
 
-.co-workspace-form-page-content{
+.co-workspace-form-page-content {
   display: flex;
   justify-content: space-evenly;
   /* align-items: center; */
@@ -1717,29 +1730,28 @@ input:valid{
 }
 
 /* CONSTRUCTION PAGE */
-.construction-img img{
+.construction-img img {
   max-width: 400px;
 }
 
-.construction-body{
+.construction-body {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 0px 8%;
-   
 }
 
-.construction-text{
+.construction-text {
   max-width: 500px;
 }
 
-.construction-text h1{
+.construction-text h1 {
   font-family: ID-bold;
   font-size: 48px;
   color: #032b44;
 }
 
-.construction-text p{
+.construction-text p {
   font-family: ID-regular;
   font-size: 18px;
   color: #000;
