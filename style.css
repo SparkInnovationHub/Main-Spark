@@ -1904,9 +1904,9 @@ input:valid {
   padding-left: 6%;
   padding-bottom: 2%;
   background-color: #e4e4e43b;
-  position: -webkit-sticky; /* For Safari */
+  /* position: -webkit-sticky;
   position: sticky;
-  top: 0;
+  top: 0; */
 }
 
 .web-dev-page2-left-demands.stuck {
