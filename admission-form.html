@@ -36,32 +36,53 @@
           />
         </div>
         <div class="admission-right">
-          <form action="" class="admission-form">
+          <form action="https://sheetdb.io/api/v1/w92qpmi2ju53c" class="admission-form" method="post" id="sheetdb-form">
             <div class="input-box">
-              <input type="text" class="input" required />
+              <input type="text" class="input" required name="data[First Name]"/>
               <label for="">First Name</label>
             </div>
             <div class="input-box">
-              <input type="text" class="input" required />
+              <input type="text" class="input" required name="data[Last Name]"/>
               <label for="">Last Name</label>
             </div>
             <div class="input-box">
-              <input type="email" class="input" required />
+              <input type="email" class="input" required name="data[Email]"/>
               <label for="">Email</label>
             </div>
             <div class="input-box">
-              <input type="tel" class="input" required />
+              <input type="tel" class="input" required name="data[Phone Number]"/>
               <label for="">Phone Number</label>
             </div>
             <div class="input-box">
-              <textarea name="" class="input" required cols="30" rows="10"></textarea>
+              <input type="text" class="input" required name="data[Address]"/>
               <label for="">Address</label>
             </div>
+            <!-- <div class="input-box">
+              <textarea name="" class="input" required cols="30" rows="10" name="data[Address]"></textarea>
+              <label for="">Address</label>
+            </div> -->
 
             <button type="submit" class="btn-12">Complete Application Process</button>
           </form>
         </div>
       </div>
     </div>
+
+    <script>
+      var form = document.getElementById('sheetdb-form');
+  form.addEventListener("submit", e => {
+    e.preventDefault();
+    fetch(form.action, {
+        method : "POST",
+        body: new FormData(document.getElementById("sheetdb-form")),
+    }).then(
+        response => response.json()
+    ).then((html) => {
+      // you can put any JS code here
+      window.open('academy.html', '_blank');
+
+    });
+  });
+  </script>
   </body>
 </html>

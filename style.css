@@ -1593,18 +1593,18 @@ footer {
 /* ADMISSION FORM PAGE */
 .admission-page {
   max-width: 1380px;
-  width: 100%;
   margin: 0 auto;
-  max-height: 100%;
+  overflow: hidden;
+  height: 100dvh;
   /* background-color: green;  */
 }
 
 .admission-img {
   transform: rotate(270deg);
-  overflow: hidden;
-  position: relative;
-  right: 635.9px;
-  bottom: 90px;
+  position: fixed;
+  left: 0px;
+  right: 100%;
+  top: 100%;
 }
 
 .admission-img img {
@@ -1615,14 +1615,13 @@ footer {
   display: flex;
   justify-content: space-evenly;
   position: relative;
-  bottom: 70px;
+  padding-top: 3%;
 }
 
 .admission-left {
-  background-color: purple;
-  margin-left: 100px;
+  /* background-color: purple; */
   width: 400px;
-  height: 500px;
+  max-height: 800px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -1630,10 +1629,9 @@ footer {
 
 .admission-right {
   width: 500px;
-  height: 500px;
+  max-height: 500px;
   color: #000;
-  padding: 0 50px;
-  overflow: hidden;
+  padding: 0 20px;
 }
 
 .admission-left h1 {
@@ -1645,16 +1643,15 @@ footer {
 
 .admission-left p {
   font-family: ID-regular;
+  font-weight: 400;
   font-size: 18px;
   color: #000;
   line-height: 1.5;
 }
 
 .admission-image {
-  width: 550px;
-  position: relative;
-  /* bottom: 0px; */
-  top: 50px;
+  width: 950px;
+  margin-top: -35%;
 }
 
 textarea {
@@ -1665,11 +1662,10 @@ textarea {
 .input-box {
   margin: 30px 0;
   position: relative;
-  /* background-color: red; */
 }
 
 .input {
-  width: 400px;
+  width: 100%;
   border-radius: 32.35px;
   border: 2px solid #000;
   outline: none;
@@ -1710,6 +1706,28 @@ input:valid {
   font-weight: 500;
   font-size: 12px;
   padding: 5px;
+}
+
+.btn-12 {
+  font-family: ID-regular;
+  cursor: pointer;
+  background-color: #032b44;
+  padding: 9px 25px;
+  border-radius: 50px;
+  color: white;
+  font-size: 18px;
+  border: 0;
+  transition: 0.4s;
+  width: 100%;
+  height: 52px;
+}
+
+.btn-12:hover {
+  /* transform: scale(0.5); */
+  background-color: transparent;
+  border: 2px solid #032b44;
+  color: #032b44;
+  font-size: 16px;
 }
 
 /* CO-WORKSPACE FORM PAGE */
@@ -1757,4 +1775,302 @@ input:valid {
   color: #000;
   line-height: 1.5;
   font-weight: 500;
+}
+
+/* COURSES */
+/* WEB DEVELOPMENT */
+.web-dev-page {
+  max-width: 1380px;
+  width: 100%;
+  margin: 0 auto;
+  color: #032b44;
+}
+
+.web-dev-page1 {
+  background: linear-gradient(
+      to bottom,
+      rgba(34, 137, 155, 0.5),
+      rgba(22, 60, 66, 0.5)
+    ),
+    #032b44;
+  max-height: 350px;
+  color: #fff;
+  font-family: ID-bold;
+  display: flex;
+}
+
+.web-dev-page1-left {
+  padding: 95px 8%;
+  padding-right: 0%;
+}
+
+.web-dev-page1-left h3 {
+  color: #ffc107;
+  padding-bottom: 1%;
+}
+
+.web-dev-page1-left h1 {
+  font-size: 36px;
+  font-family: ID-regular;
+}
+
+.web-dev-page1-left p {
+  font-family: ID-regular;
+  font-weight: 400;
+}
+
+.web-dev-page1-right {
+  padding: 45px 8%;
+  padding-left: 4%;
+  color: #000;
+}
+
+.web-dev-page1-right h3 {
+  padding-bottom: 2%;
+}
+
+.web-dev-page1-right img {
+  width: 500px;
+  box-shadow: -10px 0 15px -15px rgba(0, 0, 0, 0.5),
+    10px 0 15px -15px rgba(0, 0, 0, 0.5);
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  z-index: 9999999999;
+}
+
+.web-dev-page1-right .text-box {
+  width: 500px;
+  background-color: #fff;
+  color: #032b44;
+  margin-top: -5%;
+  padding: 10%;
+  line-height: 1.8;
+  box-shadow: -10px 0 15px -18px rgba(0, 0, 0, 0.5),
+    10px 0 15px -18px rgba(0, 0, 0, 0.5), 0px 10px 15px -18px rgba(0, 0, 0, 0.5);
+  border-radius: 20px;
+  z-index: 999999999;
+}
+
+.web-dev-page1-right .text-box ul {
+  padding-bottom: 5%;
+}
+
+.web-dev-page1-right .text-box ul li {
+  font-family: ID-regular;
+  font-weight: 300;
+  font-size: 14px;
+  margin-left: 5%;
+  padding-bottom: 2%;
+  color: #032b44;
+}
+
+.web-dev-page1-right-btn {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.btn-13 {
+  cursor: pointer;
+  background-color: #ffc107;
+  color: #032b44;
+  font-family: ID-regular;
+  padding: 9px 135px;
+  border-radius: 50px;
+  font-size: 18px;
+  border: 0;
+  font-weight: 800;
+}
+
+.btn-13:hover {
+  /* transform: scale(0.9); */
+  background-color: transparent;
+  border: 2px solid #ffc107;
+  color: #ffc107;
+  transition: 0.4s;
+}
+
+.web-dev-page1-right p {
+  padding-top: 3%;
+  font-family: ID-regular;
+  font-weight: 200;
+  font-size: 12px;
+  text-align: center;
+  color: #032b44;
+}
+
+.web-dev-page2-left-demands {
+  display: flex;
+  padding-top: 2%;
+  padding-left: 6%;
+  padding-bottom: 2%;
+  background-color: #e4e4e43b;
+  position: -webkit-sticky; /* For Safari */
+  position: sticky;
+  top: 0;
+}
+
+.web-dev-page2-left-demands.stuck {
+  background-color: #032b44;
+}
+
+.web-dev-page2-left-demands-container {
+  padding: 10px 20px;
+}
+
+.web-dev-page2-left-demands-container h4 {
+  color: #032b44;
+}
+
+.web-dev-page2-left-demands-container p {
+  font-family: ID-regular;
+  font-weight: 400;
+  color: #032b44;
+}
+
+.admission-span1 {
+  text-decoration: line-through;
+}
+
+.web-dev-page2-left-demands-container-separator {
+  border-left: 2px solid #032b44;
+  height: auto;
+}
+
+.course-details {
+  padding-top: 2%;
+  padding-left: 7%;
+  padding-right: 55%;
+  margin-bottom: 3%;
+}
+
+.course-details h2 {
+  font-family: ID-bold;
+  color: #032b44;
+  padding-bottom: 2%;
+}
+
+.course-details p {
+  font-family: ID-regular;
+  color: #032b44;
+  font-weight: 400;
+  /* line-height: 2; */
+}
+
+.web-dev-page3 {
+  background-color: #032b44;
+  color: #fff;
+  padding-top: 3%;
+  padding-bottom: 3%;
+  text-align: center;
+}
+
+.web-dev-page3 h2 {
+  font-size: 30px;
+}
+
+.web-dev-page3-benefits {
+  display: flex;
+  padding-top: 3%;
+  justify-content: space-evenly;
+}
+
+.web-dev-page3-benefits-container {
+  width: 250px;
+}
+
+.web-dev-page3-benefits-container h4 {
+  color: #ffc107;
+}
+
+.web-dev-page3-benefits-container p {
+  font-family: ID-regular;
+  font-weight: 100;
+}
+
+.web-dev-page3-benefits-container img {
+  width: 50px;
+}
+
+.web-dev-page4{
+  padding-bottom: 3%;
+  color: #032b44;
+}
+
+.web-dev-page4 h2 {
+  font-family: ID-bold;
+  font-size: 24px;
+  text-align: center;
+  padding-top: 7%;
+  padding-bottom: 1%;
+  color: #032b44;
+}
+
+.web-dev-page4-admission {
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;
+  border-top: 5px solid #032b44;
+  width: 800px;
+  margin: 0 auto;
+}
+
+.web-dev-page4-admission-container {
+  width: 250px;
+  text-align: center;
+  padding-top: 4%;
+  padding: 20px;
+  color: #032b44;
+}
+
+.admission-circle {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  /* background-color: #032b44; */
+  background: linear-gradient(
+      to bottom,
+      rgba(34, 137, 155, 0.5),
+      rgba(22, 60, 66, 0.5)
+    ),
+    #032b44;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.web-dev-page4-admission-container h4{
+  padding-top: 4%;
+  padding-bottom: 4%;
+}
+
+.web-dev-page5{
+  padding: 3% 8%;
+}
+
+.web-dev-page5-container{
+  padding: 0% 8%;
+}
+
+.web-dev-page5 h2{
+  font-family: ID-bold;
+  font-size: 38px;
+  text-align: center;
+  padding-bottom: 3%;
+  color: #032b44;
+}
+
+.web-dev-page5 h3{
+  padding-bottom: 1%;
+  border-bottom: 1px solid #032b44;
+}
+
+.web-dev-page5 p{
+  font-family: ID-regular;
+  font-size: 14px;
+  font-weight: 500;
+  padding-top: 1%;
+  padding-bottom: 3%;
+  color: #032b44;
 }
