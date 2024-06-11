@@ -2074,3 +2074,31 @@ input:valid {
   padding-bottom: 3%;
   color: #032b44;
 }
+
+.web-dev-page6{
+  display: flex;
+  color: #032b44;
+}
+
+.web-dev-page6{
+  padding: 3% 8%;
+}
+
+.web-dev-page6-left h2{
+  font-family: ID-bold;
+  font-size: 38px;
+}
+
+.web-dev-page6-container-faq h3{
+  border-bottom: 1px solid #032b44;
+  font-size: 18px;
+  padding-bottom: 0.5%;
+}
+
+.web-dev-page6-container-faq p{
+  font-size: 14px;
+  font-family: ID-regular;
+  font-weight: 400;
+  padding-top: 0.5%;
+  padding-bottom: 3%;
+}
