@@ -1840,12 +1840,13 @@ option[value=""][disabled] {
       rgba(22, 60, 66, 0.5)
     ),
     #032b44; */
-  background: linear-gradient(
+  /* background: linear-gradient(
     211deg,
     #039bab 5.98%,
     #0d7590 37.75%,
     #014c7c 70.36%
-  );
+  ); */
+  background: #032b44;
   max-height: 350px;
   color: #fff;
   font-family: ID-bold;
@@ -1864,7 +1865,7 @@ option[value=""][disabled] {
 
 .web-dev-page1-left h1 {
   font-size: 36px;
-  font-family: ID-regular;
+  font-family: ID-bold;
 }
 
 .web-dev-page1-left p {
@@ -1971,10 +1972,12 @@ option[value=""][disabled] {
 }
 
 .web-dev-page2-left-demands-container h4 {
+  font-size: 14px;
   color: #032b44;
 }
 
 .web-dev-page2-left-demands-container p {
+  font-size: 14px;
   font-family: ID-regular;
   font-weight: 400;
   color: #032b44;
@@ -1997,12 +2000,14 @@ option[value=""][disabled] {
 }
 
 .course-details h2 {
+  font-size: 18px;
   font-family: ID-bold;
   color: #032b44;
   padding-bottom: 2%;
 }
 
 .course-details p {
+  font-size: 14px;
   font-family: ID-regular;
   color: #032b44;
   font-weight: 400;
@@ -2033,11 +2038,13 @@ option[value=""][disabled] {
 
 .web-dev-page3-benefits-container h4 {
   color: #ffc107;
+  font-size: 14px;
 }
 
 .web-dev-page3-benefits-container p {
   font-family: ID-regular;
   font-weight: 100;
+  font-size: 14px;
 }
 
 .web-dev-page3-benefits-container img {

@@ -612,19 +612,19 @@
     max-height: 330px;
   }
 
-  .about1{
+  .about1 {
     padding-left: 0%;
   }
 
-  .dont-show-on-mobile{
+  .dont-show-on-mobile {
     display: none;
   }
 
-  .about1 img{
+  .about1 img {
     display: block;
     width: 100%;
     height: 100%;
-    margin: 0  auto;
+    margin: 0 auto;
   }
 
   .about1 h1 {
@@ -671,7 +671,7 @@
     padding-bottom: 5%;
   }
 
-  .btn-4-mobile-container{
+  .btn-4-mobile-container {
     margin: 0 auto;
   }
 
@@ -738,7 +738,7 @@
   .a4body-1 h3 {
     font-size: 16px;
   }
-  
+
   .a4body-1 p {
     font-size: 14px;
   }
@@ -762,7 +762,7 @@
     font-size: 24px;
     text-align: center;
   }
-  
+
   .about5b-text p {
     font-size: 14px;
     margin-right: auto;
@@ -850,11 +850,11 @@
     gap: 25px;
   }
 
-  .course-box{
+  .course-box {
     border-radius: 0px;
   }
 
-  .course-box a{
+  .course-box a {
     font-size: 12px;
   }
 
@@ -870,7 +870,7 @@
     text-align: center;
   }
 
-  #btn-10b-social{
+  #btn-10b-social {
     border-radius: 30px;
   }
 
@@ -889,7 +889,7 @@
     font-size: 18px;
   }
 
-  .academy-content3-h2b{
+  .academy-content3-h2b {
     padding-top: 5%;
   }
 
@@ -1018,7 +1018,7 @@
   }
 
   .web-dev-page1-left h1 {
-    font-size: 24px;
+    font-size: 30px;
   }
 
   .web-dev-page1-right {
@@ -1078,7 +1078,7 @@
   }
 
   .btn-13 {
-    padding: 9px 95px;
+    padding: 9px 105px;
     border-radius: 50px;
     font-size: 14px;
     border: 0;
@@ -1090,33 +1090,42 @@
     align-items: center;
     padding: 0px;
     text-align: center;
+    margin-top: 10%;
+    margin-bottom: 10%;
   }
 
   .course-details {
     padding: 0px;
-    padding: 10px 30px;
-  }
-
-  .course-details h2 {
-    font-size: 22px;
+    padding: 10px 4%;
+    margin-bottom: 10%;
   }
 
   .course-details p {
-    font-size: 16px;
+    font-size: 14px;
   }
 
   .web-dev-page3 h2 {
-    font-size: 22px;
+    font-size: 24px;
+    padding-top: 5%;
+    padding-bottom: 5%;
+  }
+
+  .web-dev-page3 {
+    padding-bottom: 7%;
   }
 
   .web-dev-page3-benefits {
     flex-direction: column;
     align-items: center;
-    gap: 10px;
+    gap: 40px;
   }
 
   .web-dev-page4 h2 {
-    font-size: 22px;
+    padding-top: 10%;
+    font-size: 24px;
+    border-bottom: 2px solid #032b44;
+    width: 80%;
+    margin: 0 auto;
   }
 
   .web-dev-page4-admission {
@@ -1136,33 +1145,45 @@
     padding: 0px;
   }
 
+  .web-dev-page5 {
+    padding: 10% 0%;
+  }
+
   .web-dev-page5 h2 {
     font-size: 24px;
+    text-align: left;
+    padding-left: 4%;
+  }
+
+  .web-dev-page5-container {
+    padding: 0% 4%;
   }
 
   .web-dev-page5 h3 {
-    font-size: 18px;
+    font-size: 14px;
   }
 
   .web-dev-page5 p {
-    font-size: 16px;
+    font-size: 14px;
   }
 
   .web-dev-page6-left h2 {
     font-size: 24px;
     padding-bottom: 5%;
+    text-align: left;
   }
 
   .web-dev-page6 {
-    padding: 5% 8%;
+    padding: 5% 4%;
+    background-color: #e4e4e4;
   }
 
   .web-dev-page6-container-faq h3 {
-    font-size: 18px;
+    font-size: 14px;
   }
 
   .web-dev-page6-container-faq p {
-    font-size: 16px;
+    font-size: 14px;
   }
 
   /* ADMISSION PORTAL */
