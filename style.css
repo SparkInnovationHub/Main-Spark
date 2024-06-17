@@ -1292,7 +1292,6 @@ footer {
 .academy-icons {
   display: flex;
   justify-content: space-evenly;
-  /* background-color: rebeccapurple; */
   padding: 7% 0px 9%;
   width: 60%;
   text-align: center;
@@ -1342,7 +1341,7 @@ footer {
 .academy2 {
   display: flex;
   justify-content: space-evenly;
-  gap: 1px;
+  gap: 10px;
   flex-wrap: wrap;
   margin-left: 5%;
   margin-right: 5%;
@@ -1356,7 +1355,7 @@ footer {
   display: flex;
   flex-direction: column;
   gap: 12%;
-  justify-content: center;
+  justify-content: flex-end;
   align-items: center;
 }
 
@@ -1373,18 +1372,16 @@ footer {
   border-radius: 10px;
   font-size: 18px;
   border: 0;
+  margin-bottom: 5%;
 }
 
 .btn-10a:hover {
   /* transform: scale(0.9); */
   background-color: transparent;
+  backdrop-filter: blur(10px);
   border: 2px solid #fff;
   color: #fff;
   transition: 0.4s;
-}
-
-.course-box-unique {
-  margin-bottom: -19%;
 }
 
 .academy2a p {
@@ -2115,6 +2112,7 @@ option[value=""][disabled] {
   text-align: center;
   font-family: ID-bold;
   font-size: 38px;
+  padding-bottom: 3%;
 }
 
 .web-dev-page6-container-faq h3 {
