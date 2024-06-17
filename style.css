@@ -1708,6 +1708,28 @@ input:valid {
   padding: 5px;
 }
 
+select {
+  width: 100%;
+  height: 52px;
+  border-radius: 32.35px;
+  border: 2px solid #000;
+  font-size: 16px;
+  padding: 10px;
+  outline: none;
+  font-size: 16px;
+  font-weight: 500;
+  font-family: ID-regular;
+}
+
+/* select:focus,
+select:valid {
+  border: 2px solid #ffc107;
+} */
+
+option[value=""][disabled] {
+  display: none;
+}
+
 .btn-12 {
   font-family: ID-regular;
   cursor: pointer;
@@ -1787,12 +1809,18 @@ input:valid {
 }
 
 .web-dev-page1 {
-  background: linear-gradient(
+  /* background: linear-gradient(
       to bottom,
       rgba(34, 137, 155, 0.5),
       rgba(22, 60, 66, 0.5)
     ),
-    #032b44;
+    #032b44; */
+  background: linear-gradient(
+    211deg,
+    #039bab 5.98%,
+    #0d7590 37.75%,
+    #014c7c 70.36%
+  );
   max-height: 350px;
   color: #fff;
   font-family: ID-bold;
@@ -1991,7 +2019,7 @@ input:valid {
   width: 50px;
 }
 
-.web-dev-page4{
+.web-dev-page4 {
   padding-bottom: 3%;
   color: #032b44;
 }
@@ -2040,20 +2068,20 @@ input:valid {
   margin: 0 auto;
 }
 
-.web-dev-page4-admission-container h4{
+.web-dev-page4-admission-container h4 {
   padding-top: 4%;
   padding-bottom: 4%;
 }
 
-.web-dev-page5{
+.web-dev-page5 {
   padding: 3% 8%;
 }
 
-.web-dev-page5-container{
+.web-dev-page5-container {
   padding: 0% 8%;
 }
 
-.web-dev-page5 h2{
+.web-dev-page5 h2 {
   font-family: ID-bold;
   font-size: 38px;
   text-align: center;
@@ -2061,12 +2089,12 @@ input:valid {
   color: #032b44;
 }
 
-.web-dev-page5 h3{
+.web-dev-page5 h3 {
   padding-bottom: 1%;
   border-bottom: 1px solid #032b44;
 }
 
-.web-dev-page5 p{
+.web-dev-page5 p {
   font-family: ID-regular;
   font-size: 14px;
   font-weight: 500;
@@ -2075,27 +2103,27 @@ input:valid {
   color: #032b44;
 }
 
-.web-dev-page6{
-  display: flex;
+.web-dev-page6 {
   color: #032b44;
 }
 
-.web-dev-page6{
+.web-dev-page6 {
   padding: 3% 8%;
 }
 
-.web-dev-page6-left h2{
+.web-dev-page6-left h2 {
+  text-align: center;
   font-family: ID-bold;
   font-size: 38px;
 }
 
-.web-dev-page6-container-faq h3{
+.web-dev-page6-container-faq h3 {
   border-bottom: 1px solid #032b44;
   font-size: 18px;
   padding-bottom: 0.5%;
 }
 
-.web-dev-page6-container-faq p{
+.web-dev-page6-container-faq p {
   font-size: 14px;
   font-family: ID-regular;
   font-weight: 400;

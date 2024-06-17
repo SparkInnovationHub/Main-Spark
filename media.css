@@ -860,6 +860,217 @@
   .btn-11 {
     font-size: 18px;
   }
+
+  /* WEB DEV PAGE */
+  .web-dev-page1 {
+    max-width: 500px;
+    width: 100%;
+    overflow: hidden;
+  }
+
+  .web-dev-page1 {
+    flex-direction: column;
+    max-height: 100dvh;
+    text-align: center;
+  }
+
+  .web-dev-page1-left {
+    padding: 0px;
+    padding: 5%;
+  }
+
+  .web-dev-page1-left h3 {
+    font-size: 16px;
+  }
+  
+  .web-dev-page1-left h1 {
+    font-size: 24px;
+  }
+
+  .web-dev-page1-right {
+    padding: 0px;
+    color: #fff;
+    text-align: left;
+  }
+
+  .web-dev-page1-right h3 {
+    font-size: 16px;
+    margin-left: -6%;
+  }
+
+  .web-dev-page1-right p{
+    color: #fff;
+  }
+
+  .web-dev-page1-right .text-box ul li {
+    text-align: left;
+    margin-left: 0px;
+    font-size: 14px;
+  }
+
+  .web-dev-page1-right .text-box ul {
+    padding-bottom: 7%;
+  }
+
+  .web-dev-page1-right img {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+  }
+
+  .web-dev-page1-left h3 {
+    font-size: 16px;
+  }
+
+  .web-dev-page1-left h1 {
+    font-size: 18px;
+  }
+
+  .web-dev-page1-right img {
+    width: 100%;
+  }
+
+  .web-dev-page1-right .text-box {
+    width: 100%;
+    margin-top: -5%;
+    padding: 10%;
+    background-color: transparent;
+    color: #fff;
+    box-shadow: none;
+  }
+
+  .web-dev-page1-right .text-box ul li {
+    font-size: 14px;
+    color: #fff;
+  }
+
+  .btn-13 {
+    padding: 9px 95px;
+    border-radius: 50px;
+    font-size: 14px;
+    border: 0;
+    font-weight: 800;
+  }
+
+
+  .web-dev-page2-left-demands {
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    text-align: center;
+  }
+
+  .course-details {
+    padding: 0px;
+    padding: 10px 30px;
+  }
+
+  .course-details h2 {
+    font-size: 22px;
+  }
+
+  .course-details p {
+    font-size: 16px;
+  }
+  
+  .web-dev-page3 h2 {
+    font-size: 22px;
+  }
+
+  .web-dev-page3-benefits {
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .web-dev-page4 h2 {
+    font-size: 22px;
+  }
+
+  .web-dev-page4-admission {
+    max-width: 400px;
+   flex-direction: column;
+   align-items: center;
+    border-top: 0px solid #032b44;
+    /* border-left: 2px solid #032b44; */
+  }
+
+  .web-dev-page4-admission-container h4, p {
+    font-size: 16px;
+  }
+
+  .web-dev-page5 {
+    padding: 0px;
+  }
+
+  .web-dev-page5 h2 {
+    font-size: 24px;
+  }
+
+  .web-dev-page5 h3 {
+    font-size: 18px;
+  }
+  
+  .web-dev-page5 p {
+    font-size: 16px;
+  }
+
+  .web-dev-page6-left h2 {
+    font-size: 24px;
+    padding-bottom: 5%;
+  }
+
+  .web-dev-page6 {
+    padding: 5% 8%;
+  }
+
+  .web-dev-page6-container-faq h3 {
+    font-size: 18px;
+  }
+  
+  .web-dev-page6-container-faq p {
+    font-size: 16px;
+  }
+
+  /* ADMISSION PORTAL */
+  .admission-page {
+    max-width: 500px;
+  }
+
+  .admission-content {
+    flex-direction: column;
+  }
+
+  .admission-image {
+    display: none;
+  }
+
+  .admission-left {
+    width: 400px;
+    max-height: 800px;
+    margin: 0 auto;
+  }
+  
+  .admission-right {
+    width: 90%;
+    padding: 0px;
+    margin: 0 auto;
+  }
+
+  .admission-img img {
+    display: none;
+  }
+
+  .btn-12 {
+    font-size: 16px;
+    margin-bottom: 5%;
+  }
+  
+  .btn-12:hover {
+    font-size: 14px;
+  }
+
+
+
 }
 
 @media (max-width: 360px) {
@@ -920,5 +1131,29 @@
   .academy-content1 {
     gap: 70px;
   }
+
+  /* COURSES PAGE */
+  .web-dev-page4-admission {
+    max-width: 320px;
+    overflow: hidden;
+  }
+
+  .web-dev-page1 {
+    max-height: 110dvh;
+  }
+
+  /* ADMISSION PAGE */
+  .admission-page {
+    overflow: visible;
+  }
+
+  .admission-left {
+    width: 300px;
+  }
+  
+  .admission-right {
+    width: 85%;
+  }
+
 
 }

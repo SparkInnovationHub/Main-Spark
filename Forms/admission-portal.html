@@ -4,8 +4,32 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Spark Innovation Hub - Admission Form</title>
-    <link rel="stylesheet" href="style.css" />
-    <link rel="stylesheet" href="media.css" />
+    <link rel="shortcut icon" href="/assets/Colored.png" type="image/png" />
+    <meta
+      name="description"
+      content="Spark Innovative Hub Limited: A dynamic company fostering creativity, collaboration, and entrepreneurship through services like Academy, Digital Agency, and Co-working Space. We ignite innovation in individuals and businesses, with a dedication to excellence and a passion for supporting the entrepreneurial ecosystem."
+    />
+    <meta
+      name="keywords"
+      content="technology, software development, IT services, tech solutions, tech academy, computer programming, web development, graphics designing, branding, logo designs"
+    />
+    <meta property="og:title" content="Spark Innovation Hub" />
+    <meta
+      property="og:description"
+      content="Spark Innovative Hub Limited: A dynamic company fostering creativity, collaboration, and entrepreneurship through services like Academy, Digital Agency, and Co-working Space. We ignite innovation in individuals and businesses, with a dedication to excellence and a passion for supporting the entrepreneurial ecosystem."
+    />
+    <meta
+      property="og:image"
+      content="https://drive.google.com/uc?export=download&id=17Ad-cF0eTeA64K_txXqXL_6FkW4qEzVR
+"
+    />
+    <meta property="og:url" content="https://sparkinnovationhub.com/" />
+    <meta property="og:type" content="https://sparkinnovationhub.com/" />
+    <meta name="author" content="Spark Innovation Hub">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://sparkinnovationhub.com/">
+    <link rel="stylesheet" href="/style.css" />
+    <link rel="stylesheet" href="/media.css" />
     <link
       rel="stylesheet"
       href="https://fonts.googleapis.com/css2?family=Space Grotesk:wght@400&display=swap"
@@ -36,7 +60,7 @@
           />
         </div>
         <div class="admission-right">
-          <form action="https://sheetdb.io/api/v1/w92qpmi2ju53c" class="admission-form" method="post" id="sheetdb-form">
+          <form action="https://sheetdb.io/api/v1/lu1gyul8bn184" class="admission-form" method="post" id="sheetdb-form">
             <div class="input-box">
               <input type="text" class="input" required name="data[First Name]"/>
               <label for="">First Name</label>
@@ -54,13 +78,19 @@
               <label for="">Phone Number</label>
             </div>
             <div class="input-box">
+              <select id="courses" name="data[Course]" aria-hidden="true">
+                  <option value="" disabled selected hidden>Select Course</option>
+                  <option value="Graphic Design">Graphic Design</option>
+                  <option value="Web Development">Web Development</option>
+                  <option value="Digital Marketing">Digital Marketing</option>
+                  <option value="Social Media Management">Social Media Management</option>
+                  <option value="Cybersecurity (Online)">Cybersecurity (Online)</option>
+              </select>
+            </div>
+            <div class="input-box">
               <input type="text" class="input" required name="data[Address]"/>
               <label for="">Address</label>
             </div>
-            <!-- <div class="input-box">
-              <textarea name="" class="input" required cols="30" rows="10" name="data[Address]"></textarea>
-              <label for="">Address</label>
-            </div> -->
 
             <button type="submit" class="btn-12">Complete Application Process</button>
           </form>
@@ -68,6 +98,7 @@
       </div>
     </div>
 
+    
     <script>
       var form = document.getElementById('sheetdb-form');
   form.addEventListener("submit", e => {
@@ -79,7 +110,7 @@
         response => response.json()
     ).then((html) => {
       // you can put any JS code here
-      window.open('academy.html', '_blank');
+      window.open('/academy.html', '_blank');
 
     });
   });
