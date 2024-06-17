@@ -594,6 +594,10 @@ footer {
   transition: 0.4s;
 }
 
+.btn-4-mobile{
+  display: none;
+}
+
 /* ABOUT PAGE CONTENT-2 */
 .about-content2 {
   display: flex;

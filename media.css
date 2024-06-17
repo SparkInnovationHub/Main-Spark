@@ -215,15 +215,6 @@
   }
   .navbar ul {
     display: none;
-    /* background-color: green;
-    width: 100%;
-    height: 100vh;
-    position: fixed;
-    top: 0;
-    right: 0;
-    z-index: 10;
-    padding-left: 40px;
-    font-size: 30px; */
   }
 
   nav ul li {
@@ -408,7 +399,7 @@
   }
 
   .textbox h1 {
-    font-size: 30px;
+    font-size: 28px;
     line-height: 1.4;
     padding-bottom: 2%;
   }
@@ -422,7 +413,7 @@
   }
 
   .textbox h2 {
-    font-size: 15px;
+    font-size: 14px;
   }
 
   .textbox p {
@@ -432,24 +423,33 @@
     line-height: 1.5;
   }
 
+  .textbox a {
+    margin: 0px auto;
+    display: flex;
+  }
+
   .btn-1 {
-    font-size: 12px;
-    padding: 12px 128px;
+    font-size: 14px;
+    padding: 12px 5px;
+    width: 90%;
+    align-items: center;
+    justify-content: center;
   }
 
   /* HOME CONTENT-2 */
   .home-content2 {
-    margin-top: -8%;
-    background-color: #e4e4e444;
+    margin-top: -18%;
+    background-color: #fff;
   }
 
   .home-content2 h2 {
     font-size: 24px;
-    text-align: left;
+    text-align: center;
     padding-left: 5%;
     padding-right: 5%;
     padding-top: 7%;
-    line-height: 1.3;
+    padding-bottom: 3%;
+    line-height: 1.2;
   }
 
   .img-container3 img {
@@ -459,12 +459,18 @@
   }
 
   .home-content2 h3 {
-    font-size: 16px;
+    font-size: 14px;
   }
 
   .break-on-mobile {
     display: block;
   }
+
+  .img-container3,
+  .textbox2 {
+    padding: 4%;
+  }
+
   .home-content2 p {
     font-size: 14px;
     margin-top: -5%;
@@ -476,19 +482,20 @@
   }
 
   .btn-2 {
-    font-size: 12px;
+    font-size: 14px;
     padding: 12px 28px;
   }
 
   /* HOME CONTENT-3 */
   .home-content3 h2 {
     font-size: 24px;
-    padding-right: 2%;
+    /* padding-right: 2%; */
+    text-align: center;
   }
 
   .home-content3 p {
     font-size: 14px;
-    /* margin-top: -5%; */
+    padding: 35px 4%;
   }
 
   .home-content3-span-b {
@@ -500,17 +507,18 @@
   }
 
   .btn-3 {
-    font-size: 12px;
+    font-size: 14px;
     padding: 12px 28px;
   }
 
   /* HOME CONTENT-4 */
   .home-content4 h2 {
     font-size: 24px;
+    text-align: center;
   }
 
   .img-box1 h3 {
-    font-size: 16px;
+    font-size: 14px;
   }
 
   /* FOOTER */
@@ -600,20 +608,29 @@
   /* ABOUT PAGE CONTENT-1 */
   .about-content1 {
     height: 150px;
+    margin-top: 40%;
   }
 
   .about1 h1 {
-    font-size: 20px;
+    font-size: 30px;
     line-height: 1;
+    margin-top: -45%;
+    color: #032b44;
   }
 
   .about1 h2 {
-    font-size: 10px;
+    font-size: 15px;
     margin-bottom: -5%;
+    color: #032b44;
+    padding-top: 2%;
   }
 
   .btn-4 {
-    width: 8px;
+    display: none;
+  }
+
+  .btn-4-mobile {
+    display: block;
     cursor: pointer;
     background-color: #ffc107;
     color: #032b44;
@@ -625,7 +642,7 @@
     border: 0;
   }
 
-  .btn-4:hover {
+  .btn-4-mobile:hover {
     transform: scale(0.9);
     background-color: transparent;
     border: 2px solid #ffc107;
@@ -638,7 +655,7 @@
     flex-direction: column;
     min-height: 100%;
     gap: 12px;
-    margin-bottom: 20%;
+    margin-bottom: 30%;
   }
 
   .about2a {
@@ -882,7 +899,7 @@
   .web-dev-page1-left h3 {
     font-size: 16px;
   }
-  
+
   .web-dev-page1-left h1 {
     font-size: 24px;
   }
@@ -898,7 +915,7 @@
     margin-left: -6%;
   }
 
-  .web-dev-page1-right p{
+  .web-dev-page1-right p {
     color: #fff;
   }
 
@@ -951,7 +968,6 @@
     font-weight: 800;
   }
 
-
   .web-dev-page2-left-demands {
     flex-direction: column;
     align-items: center;
@@ -971,7 +987,7 @@
   .course-details p {
     font-size: 16px;
   }
-  
+
   .web-dev-page3 h2 {
     font-size: 22px;
   }
@@ -988,13 +1004,14 @@
 
   .web-dev-page4-admission {
     max-width: 400px;
-   flex-direction: column;
-   align-items: center;
+    flex-direction: column;
+    align-items: center;
     border-top: 0px solid #032b44;
     /* border-left: 2px solid #032b44; */
   }
 
-  .web-dev-page4-admission-container h4, p {
+  .web-dev-page4-admission-container h4,
+  p {
     font-size: 16px;
   }
 
@@ -1009,7 +1026,7 @@
   .web-dev-page5 h3 {
     font-size: 18px;
   }
-  
+
   .web-dev-page5 p {
     font-size: 16px;
   }
@@ -1026,7 +1043,7 @@
   .web-dev-page6-container-faq h3 {
     font-size: 18px;
   }
-  
+
   .web-dev-page6-container-faq p {
     font-size: 16px;
   }
@@ -1049,7 +1066,7 @@
     max-height: 800px;
     margin: 0 auto;
   }
-  
+
   .admission-right {
     width: 90%;
     padding: 0px;
@@ -1064,13 +1081,10 @@
     font-size: 16px;
     margin-bottom: 5%;
   }
-  
+
   .btn-12:hover {
     font-size: 14px;
   }
-
-
-
 }
 
 @media (max-width: 360px) {
@@ -1150,10 +1164,8 @@
   .admission-left {
     width: 300px;
   }
-  
+
   .admission-right {
     width: 85%;
   }
-
-
 }
