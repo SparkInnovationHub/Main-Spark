@@ -761,15 +761,12 @@
   .about5b-text h2 {
     font-size: 24px;
     text-align: center;
-    /* margin-right: auto; */
-    /* margin-left: 0px; */
   }
   
   .about5b-text p {
     font-size: 14px;
     margin-right: auto;
     text-align: center;
-    /* margin-left: 0px; */
   }
 
   .btn-5 {
@@ -780,11 +777,16 @@
   /* ACADEMY PAGE */
   .academy-content1 {
     flex-direction: column;
+    min-height: 300px;
+    width: 100%;
+    border-radius: 0px;
+    padding-top: 10%;
+    padding-bottom: 10%;
   }
 
   .academy-left {
     padding-left: 0%;
-    padding-top: 15%;
+    padding-top: 0%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -794,6 +796,17 @@
   .academy-left h1 {
     font-size: 38px;
     line-height: 1;
+    padding-left: 4%;
+    text-align: center;
+  }
+
+  .academy-left a {
+    /* width: 50%; */
+    text-align: center;
+  }
+
+  .btn-10 {
+    padding: 9px 150px;
   }
 
   .academy-right {
@@ -801,15 +814,15 @@
   }
 
   .academy-right img {
-    width: 100%;
+    /* width: 100%;
     position: relative;
     right: 0%;
-    /* top: 5.5px; */
-    display: block;
+    display: block; */
+    display: none;
   }
 
   .academy-icons {
-    width: 80%;
+    /* width: 80%; */
   }
 
   .icon3a img {
@@ -824,25 +837,60 @@
 
   .academy-content2 h2 {
     padding: 20px;
+    padding-top: 40px;
     text-align: center;
-    font-size: 32px;
+    font-size: 24px;
   }
 
   .academy2a p {
     font-size: 16px;
   }
 
+  .academy2 {
+    gap: 25px;
+  }
+
+  .course-box{
+    border-radius: 0px;
+  }
+
+  .course-box a{
+    font-size: 12px;
+  }
+
   .btn-10a {
+    display: none;
+  }
+
+  .btn-10b {
+    display: block;
     font-size: 14px;
+    border-radius: 20px;
+    background-color: #ffc107;
+    text-align: center;
+  }
+
+  #btn-10b-social{
+    border-radius: 30px;
+  }
+
+  .academy2a p {
+    display: none;
   }
 
   .academy-content3 {
     margin: 0px auto;
     margin-left: 10%;
+    padding-top: 10%;
+    padding-bottom: 10%;
   }
 
   .academy-content3 h2 {
     font-size: 18px;
+  }
+
+  .academy-content3-h2b{
+    padding-top: 5%;
   }
 
   .academy-content3 ul {
@@ -1216,7 +1264,11 @@
 
   /* ACADEMY */
   .academy-content1 {
-    gap: 70px;
+    /* gap: 70px; */
+  }
+
+  .btn-10 {
+    padding: 9px 100px;
   }
 
   /* COURSES PAGE */

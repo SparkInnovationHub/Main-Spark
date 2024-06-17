@@ -1320,7 +1320,7 @@ footer {
   color: white;
   padding: 9px 25px;
   border-radius: 10px;
-  font-size: 18px;
+  font-size: 14px;
   border: 0;
 }
 
@@ -1382,6 +1382,28 @@ footer {
 }
 
 .btn-10a:hover {
+  /* transform: scale(0.9); */
+  background-color: transparent;
+  backdrop-filter: blur(10px);
+  border: 2px solid #fff;
+  color: #fff;
+  transition: 0.4s;
+}
+
+.btn-10b {
+  display: none;
+  font-family: ID-regular;
+  cursor: pointer;
+  background-color: #fff;
+  color: #032b44;
+  padding: 9px 25px;
+  border-radius: 10px;
+  font-size: 18px;
+  border: 0;
+  margin-bottom: 5%;
+}
+
+.btn-10b:hover {
   /* transform: scale(0.9); */
   background-color: transparent;
   backdrop-filter: blur(10px);
