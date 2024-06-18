@@ -1062,12 +1062,12 @@ footer {
   cursor: pointer;
   background-color: #ffffff;
   color: #009dff;
-  padding: 9px 25px;
+  padding: 9px 45px;
   border-radius: 50px;
   font-family: ID-bold;
   font-size: 15px;
   border: 0;
-  width: 200px;
+  /* width: 200px; */
 }
 
 .btn-7:hover {
@@ -1082,7 +1082,7 @@ footer {
   cursor: pointer;
   background-color: #ffffff;
   color: #ff2e60;
-  padding: 9px 25px;
+  padding: 9px 45px;
   border-radius: 50px;
   font-family: ID-bold;
   font-size: 15px;
@@ -1102,7 +1102,7 @@ footer {
   cursor: pointer;
   background-color: #ffffff;
   color: #ffa800;
-  padding: 9px 25px;
+  padding: 9px 45px;
   border-radius: 50px;
   font-family: ID-bold;
   font-size: 15px;
