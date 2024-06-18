@@ -1000,11 +1000,9 @@
     max-width: 500px;
     width: 100%;
     overflow: hidden;
-  }
-
-  .web-dev-page1 {
     flex-direction: column;
-    max-height: 100dvh;
+    max-height: 150dvh;
+    height: 100%;
     text-align: center;
   }
 
@@ -1034,12 +1032,14 @@
 
   .web-dev-page1-right p {
     color: #fff;
+    /* margin-bottom: 5%; */
   }
 
   .web-dev-page1-right .text-box ul li {
     text-align: left;
     margin-left: 0px;
     font-size: 14px;
+    color: #fff;
   }
 
   .web-dev-page1-right .text-box ul {
@@ -1047,8 +1047,8 @@
   }
 
   .web-dev-page1-right img {
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
   }
 
   .web-dev-page1-left h3 {
@@ -1070,11 +1070,6 @@
     background-color: transparent;
     color: #fff;
     box-shadow: none;
-  }
-
-  .web-dev-page1-right .text-box ul li {
-    font-size: 14px;
-    color: #fff;
   }
 
   .btn-13 {
@@ -1193,6 +1188,7 @@
 
   .admission-content {
     flex-direction: column;
+    padding-top: 10%;
   }
 
   .admission-image {
@@ -1205,8 +1201,17 @@
     margin: 0 auto;
   }
 
+  .admission-left h1 {
+    font-size: 40px;
+    padding-bottom: 2%;
+  }
+  
+  .admission-left p {
+    font-size: 14px;
+  }
+
   .admission-right {
-    width: 90%;
+    width: 92%;
     padding: 0px;
     margin: 0 auto;
   }
@@ -1217,7 +1222,7 @@
 
   .btn-12 {
     font-size: 16px;
-    margin-bottom: 5%;
+    margin-bottom: 1%;
   }
 
   .btn-12:hover {
@@ -1284,22 +1289,18 @@
   }
 
   /* ACADEMY */
-  .academy-content1 {
-    /* gap: 70px; */
-  }
-
   .btn-10 {
     padding: 9px 100px;
   }
 
   /* COURSES PAGE */
+  .btn-13 {
+    padding: 9px 95px;
+  }
+
   .web-dev-page4-admission {
     max-width: 320px;
     overflow: hidden;
-  }
-
-  .web-dev-page1 {
-    max-height: 110dvh;
   }
 
   /* ADMISSION PAGE */
@@ -1313,5 +1314,9 @@
 
   .admission-right {
     width: 85%;
+  }
+
+  .admission-right p {
+    padding-bottom: 15%;
   }
 }
