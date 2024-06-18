@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Spark Innovation Hub - Admission Form</title>
+    <link rel="shortcut icon" href="/assets/Colored.png" type="image/png" />
+    <meta
+      name="description"
+      content="Spark Innovative Hub Limited: A dynamic company fostering creativity, collaboration, and entrepreneurship through services like Academy, Digital Agency, and Co-working Space. We ignite innovation in individuals and businesses, with a dedication to excellence and a passion for supporting the entrepreneurial ecosystem."
+    />
+    <meta
+      name="keywords"
+      content="technology, software development, IT services, tech solutions, tech academy, computer programming, web development, graphics designing, branding, logo designs"
+    />
+    <meta property="og:title" content="Spark Innovation Hub" />
+    <meta
+      property="og:description"
+      content="Spark Innovative Hub Limited: A dynamic company fostering creativity, collaboration, and entrepreneurship through services like Academy, Digital Agency, and Co-working Space. We ignite innovation in individuals and businesses, with a dedication to excellence and a passion for supporting the entrepreneurial ecosystem."
+    />
+    <meta
+      property="og:image"
+      content="https://drive.google.com/uc?export=download&id=17Ad-cF0eTeA64K_txXqXL_6FkW4qEzVR
+"
+    />
+    <meta property="og:url" content="https://sparkinnovationhub.com/" />
+    <meta property="og:type" content="https://sparkinnovationhub.com/" />
+    <meta name="author" content="Spark Innovation Hub">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://sparkinnovationhub.com/">
+    <link rel="stylesheet" href="/style.css" />
+    <link rel="stylesheet" href="/media.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Space Grotesk:wght@400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open Sans:wght@400;700&display=swap"
+    />
+  </head>
+  <body>
+    <div class="admission-page">
+      <div class="admission-img">
+        <img src="/assets/pattern.svg" />
+      </div>
+      <div class="admission-content">
+        <div class="admission-left">
+          <h1>Let’s get started</h1>
+          <p>
+            This is the Admissions Portal, your first step towards gaining some
+            of today's most sought-after skills and joining our incredible
+            talent community. To get started, you need to fill the form as
+            required.
+          </p>
+          <img
+            src="/assets/admission1.png"
+            class="admission-image"
+            alt="A female student with a white laptop"
+          />
+        </div>
+        <div class="admission-right">
+          <form action="https://sheetdb.io/api/v1/lu1gyul8bn184" class="admission-form" method="post" id="sheetdb-form">
+            <div class="input-box">
+              <input type="text" class="input" required name="data[First Name]"/>
+              <label for="">First Name</label>
+            </div>
+            <div class="input-box">
+              <input type="text" class="input" required name="data[Last Name]"/>
+              <label for="">Last Name</label>
+            </div>
+            <div class="input-box">
+              <input type="email" class="input" required name="data[Email]"/>
+              <label for="">Email</label>
+            </div>
+            <div class="input-box">
+              <input type="tel" class="input" required name="data[Phone Number]"/>
+              <label for="">Phone Number</label>
+            </div>
+            <div class="input-box">
+              <select id="courses" name="data[Course]" aria-hidden="true">
+                  <option value="" disabled selected hidden>Select Course</option>
+                  <option value="Graphic Design">Graphic Design</option>
+                  <option value="Web Development">Web Development</option>
+                  <option value="Digital Marketing">Digital Marketing</option>
+                  <option value="Social Media Management">Social Media Management</option>
+                  <option value="Cybersecurity (Online)">Cybersecurity (Online)</option>
+              </select>
+            </div>
+            <div class="input-box">
+              <input type="text" class="input" required name="data[Address]"/>
+              <label for="">Address</label>
+            </div>
+
+            <button type="submit" class="btn-12">Proceed To Payment</button>
+          </form>
+          <p>Disclaimer: By clicking 'Continue,' you will be redirected to Paystack, our third-party payment service provider. Please note that Spark Innovation Hub is not responsible for the content or services provided by Paystack. If you encounter any issues related to Paystack services, you must contact Paystack directly.</p>
+        </div>
+      </div>
+    </div>
+
+    
+    <script>
+      var form = document.getElementById('sheetdb-form');
+  form.addEventListener("submit", e => {
+    e.preventDefault();
+    fetch(form.action, {
+        method : "POST",
+        body: new FormData(document.getElementById("sheetdb-form")),
+    }).then(
+        response => response.json()
+    ).then((html) => {
+      // you can put any JS code here
+      //window.open('/academy.html', '_blank');
+      window.open('https://paystack.com/pay/sparkinnovationhubacademycybersecurity');
+
+    });
+  });
+  </script>
+  </body>
+</html>
