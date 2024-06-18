@@ -386,13 +386,28 @@
 /* To be adjusted from 500px back to 360px */
 @media (max-width: 500px) {
   /* HOME CONTENT-1 */
+
+  /* MODAL */
+  .modal-content {
+    padding: 20px;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100dvh;
+  }
+
+  .close {
+    margin-left: auto;
+  }
+  
+
   .head {
     width: 100%;
     padding: 20px 4%;
     padding-bottom: 10px;
   }
-
-  /* NAV BAR */
 
   .logo img {
     width: 80px;

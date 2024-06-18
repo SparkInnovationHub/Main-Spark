@@ -206,41 +206,43 @@
           <p>Copyright 2024</p>
         </div>
       </footer>
-
-      <script>
-        function showSidebar(){
-        const sidebar = document.querySelector('.sidebar')
-        sidebar.style.display = 'flex'
-      }
-      function hideSidebar(){
-        const sidebar = document.querySelector('.sidebar')
-        sidebar.style.display = 'none'
-      }
-      </script>
-
-      <script>
-        const inputs = document.querySelectorAll(
-          ".contact-input, .contact-input-a"
-        );
-
-        function focusFunc() {
-          let parent = this.parentNode;
-          parent.classList.add("focus");
-        }
-
-        function blurFunc() {
-          let parent = this.parentNode;
-          if (this.value == "")
-          {
-            parent.classList.remove("focus");
-          }
-        }
-
-        inputs.forEach((input) => {
-          input.addEventListener("focus", focusFunc);
-          input.addEventListener("blur", blurFunc);
-        });
-      </script>
     </div>
+
+    <script>
+      function showSidebar(){
+      const sidebar = document.querySelector('.sidebar')
+      sidebar.style.display = 'flex'
+    }
+    function hideSidebar(){
+      const sidebar = document.querySelector('.sidebar')
+      sidebar.style.display = 'none'
+    }
+    </script>
+
+    <script>
+      const inputs = document.querySelectorAll(
+        ".contact-input, .contact-input-a"
+      );
+
+      function focusFunc() {
+        let parent = this.parentNode;
+        parent.classList.add("focus");
+      }
+
+      function blurFunc() {
+        let parent = this.parentNode;
+        if (this.value == "")
+        {
+          parent.classList.remove("focus");
+        }
+      }
+
+      inputs.forEach((input) => {
+        input.addEventListener("focus", focusFunc);
+        input.addEventListener("blur", blurFunc);
+      });
+    </script>
+
+    <script src="script.js"></script>
   </body>
 </html>
