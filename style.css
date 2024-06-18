@@ -1368,6 +1368,7 @@ footer {
 .academy-icons {
   display: flex;
   justify-content: space-evenly;
+  gap: 15px;
   padding: 7% 0px 9%;
   width: 60%;
   text-align: center;

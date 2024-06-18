@@ -400,8 +400,11 @@
 
   .close {
     margin-left: auto;
+    font-size: 38px;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
   }
-  
 
   .head {
     width: 100%;
@@ -837,7 +840,7 @@
   }
 
   .academy-icons {
-    /* width: 80%; */
+    gap: 30px;
   }
 
   .icon3a img {
@@ -1220,7 +1223,7 @@
     font-size: 40px;
     padding-bottom: 2%;
   }
-  
+
   .admission-left p {
     font-size: 14px;
   }
