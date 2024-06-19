@@ -1913,7 +1913,6 @@ option[value=""][disabled] {
   max-width: 1380px;
   width: 100%;
   margin: 0 auto;
-  color: #032b44;
 }
 
 .web-dev-page1 {
@@ -1980,7 +1979,7 @@ option[value=""][disabled] {
   background-color: #fff;
   color: #032b44;
   margin-top: -5%;
-  padding: 10%;
+  padding: 8% 10%;
   line-height: 1.8;
   box-shadow: -10px 0 15px -18px rgba(0, 0, 0, 0.5),
     10px 0 15px -18px rgba(0, 0, 0, 0.5), 0px 10px 15px -18px rgba(0, 0, 0, 0.5);
