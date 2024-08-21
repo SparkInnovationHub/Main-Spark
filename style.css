@@ -72,6 +72,12 @@ body {
 .navbar ul li a:hover {
   color: #ffc107;
 }
+/* TESTING CODE */
+/* .navbar ul li a:active,
+.navbar ul li a:focus{
+  background-color: black;
+  color: red;
+} */
 
 .logo img {
   width: 120px;
@@ -1963,6 +1969,21 @@ option[value=""][disabled] {
 .web-dev-page1-left h1 {
   font-size: 36px;
   font-family: ID-bold;
+  margin-bottom: 18px;
+}
+
+.web-dev-page1-left p{
+  display: inline;
+  background-color: #ffc107;
+  padding: 10px 20px;
+  color: #032b44;
+  font-size: 16px;
+  border-radius: 30px;
+  font-weight: 100;
+}
+
+.web-dev-page1-left p span{
+  font-weight: 800;
 }
 
 .web-dev-page1-left p {
