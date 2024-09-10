@@ -1995,6 +1995,10 @@ option[value=""][disabled] {
   margin-right: 25px;
 }
 
+.p-break-on-mobile{
+  display: none;
+}
+
 .web-dev-page1-right {
   padding: 45px 8%;
   padding-left: 4%;

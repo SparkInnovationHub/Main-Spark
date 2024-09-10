@@ -1248,6 +1248,13 @@
   }
 }
 
+@media (max-width: 390px){
+  .web-dev-page1-left p{
+    padding: 5px 10px;
+    font-size: 12px;
+  }
+}
+
 @media (max-width: 360px) {
   /* ABOUT US  */
   .about-content2 {
