@@ -1991,6 +1991,10 @@ option[value=""][disabled] {
   font-weight: 400;
 }
 
+.web-dev-page1-left-first-p{
+  margin-right: 25px;
+}
+
 .web-dev-page1-right {
   padding: 45px 8%;
   padding-left: 4%;
