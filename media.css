@@ -888,6 +888,10 @@
     text-align: center;
   }
 
+  /* .btn-10b-social{
+    font-size: 1px !important;
+  } */
+
   #btn-10b-social {
     border-radius: 30px;
   }
