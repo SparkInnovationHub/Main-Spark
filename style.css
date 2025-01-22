@@ -2288,3 +2288,37 @@ option[value=""][disabled] {
   padding-top: 0.5%;
   padding-bottom: 3%;
 }
+
+/* PROJECT-1000 PAGE */
+.project-section-1{
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 35px 8%;
+}
+
+.project-section-1 img{
+  width: 100%;
+}
+
+.project-section-2{
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 35px 8%;
+}
+
+.project-page p, li{
+  font-weight: 400;
+}
+
+.project-page p,ul{
+  padding-block: 10px;
+}
+
+.project-page h3{
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.project-page span{
+  font-weight: 700;
+}
