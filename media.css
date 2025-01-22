@@ -195,6 +195,11 @@
 
 /* sm */
 @media (max-width: 640px) {
+  /* PROJECT PAGE */
+  .project-section-1{
+    padding: 35px 0;
+  }
+
   .container {
     max-width: 475px;
   }
