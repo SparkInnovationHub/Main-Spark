@@ -1972,7 +1972,7 @@ option[value=""][disabled] {
   margin-bottom: 18px;
 }
 
-.web-dev-page1-left p{
+.web-dev-page1-left p {
   display: inline;
   background-color: #ffc107;
   padding: 10px 20px;
@@ -1982,7 +1982,7 @@ option[value=""][disabled] {
   font-weight: 100;
 }
 
-.web-dev-page1-left p span{
+.web-dev-page1-left p span {
   font-weight: 800;
 }
 
@@ -1991,11 +1991,11 @@ option[value=""][disabled] {
   font-weight: 400;
 }
 
-.web-dev-page1-left-first-p{
+.web-dev-page1-left-first-p {
   margin-right: 25px;
 }
 
-.p-break-on-mobile{
+.p-break-on-mobile {
   display: none;
 }
 
@@ -2290,35 +2290,68 @@ option[value=""][disabled] {
 }
 
 /* PROJECT-1000 PAGE */
-.project-section-1{
+.project-section-1,
+.project-section-2,
+.project-section-3 {
   max-width: 1440px;
   margin: 0 auto;
   padding: 35px 8%;
 }
 
-.project-section-1 img{
+.project-section-1 img {
   width: 100%;
 }
 
-.project-section-2{
-  max-width: 1440px;
-  margin: 0 auto;
-  padding: 35px 8%;
-}
-
-.project-page p, li{
+.project-page p,
+li {
   font-weight: 400;
 }
 
-.project-page p,ul{
-  padding-block: 10px;
+.project-page p {
+  padding-bottom: 10px;
 }
 
-.project-page h3{
+.project-page ul {
+  padding-bottom: 10px;
+}
+
+.project-page h3 {
   font-size: 24px;
   font-weight: 700;
 }
 
-.project-page span{
+.project-page span {
   font-weight: 700;
+}
+
+.project-section-3-div {
+  display: flex;
+  gap: 20px;
+}
+
+.project-h2,
+.project-p {
+  color: #ffffff;
+  margin-top: auto;
+}
+
+.first-project-section-3-div {
+  flex: 1;
+  background: url("assets/project-image-2.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 30px;
+  padding: 40px;
+  /* display: flex;
+  justify-content: flex-end; */
+}
+
+.first-project-section-3-div-text-div {
+  /* display: flex;
+  flex-direction: column; */
+}
+
+.second-project-section-3-div {
+  flex: 1;
 }
