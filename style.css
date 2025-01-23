@@ -2371,3 +2371,7 @@ li {
 .second-project-section-3-div {
   flex: 1;
 }
+
+.project-disclaimer-paragraph{
+  text-align: center;
+}
