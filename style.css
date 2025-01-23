@@ -1808,6 +1808,22 @@ textarea {
   transition: 0.3s ease;
 }
 
+.project-textarea{
+  width: 100%;
+  border-radius: 5px;
+  border: 2px solid #000;
+  outline: none;
+  padding-left: 10px;
+  color: #000;
+  font-size: 16px;
+  font-weight: 500;
+  font-family: ID-regular;
+  height: 100px;
+  background: transparent;
+  padding: 0.6rem 1.2rem;
+  transition: 0.3s ease;
+}
+
 .input-box label {
   position: absolute;
   top: 50%;

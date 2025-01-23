@@ -193,7 +193,7 @@
           </div>
           <div class="second-project-section-3-div">
             <form
-              action="https://sheetdb.io/api/v1/lu1gyul8bn184"
+              action="https://sheetdb.io/api/v1/35j287akzcrzk"
               class="admission-form"
               method="post"
               id="sheetdb-form"
@@ -203,22 +203,18 @@
                   type="text"
                   class="input"
                   required
-                  name="data[First Name]"
+                  name="data[Full Name]"
                 />
-                <label for="">First Name</label>
+                <label for="">Full Name</label>
               </div>
               <div class="input-box">
                 <input
-                  type="text"
+                  type="email"
                   class="input"
                   required
-                  name="data[Last Name]"
+                  name="data[Email Address]"
                 />
-                <label for="">Last Name</label>
-              </div>
-              <div class="input-box">
-                <input type="email" class="input" required name="data[Email]" />
-                <label for="">Email</label>
+                <label for="">Email Address</label>
               </div>
               <div class="input-box">
                 <input
@@ -230,28 +226,12 @@
                 <label for="">Phone Number</label>
               </div>
               <div class="input-box" required>
-                <select id="courses" name="data[Course]" aria-hidden="true">
+                <select id="courses" name="data[Laptop]" aria-hidden="true">
                   <option value="" disabled selected hidden>
-                    Select Course
+                    Do you have a laptop?
                   </option>
-                  <option value="Graphic Design">Graphic Design</option>
-                  <option value="Web Development">Web Development</option>
-                  <option value="Digital Marketing">Digital Marketing</option>
-                  <option value="Social Media Management">
-                    Data Analytics
-                  </option>
-                  <option value="Cybersecurity (Online)">
-                    Cybersecurity (Online)
-                  </option>
-                </select>
-              </div>
-              <div class="input-box">
-                <select id="courses" name="data[Training]" aria-hidden="true">
-                  <option value="" disabled selected hidden>
-                    Training Mode
-                  </option>
-                  <option value="On-site">On-site</option>
-                  <option value="Online">Online</option>
+                  <option value="Yes">Yes</option>
+                  <option value="No">No</option>
                 </select>
               </div>
               <div class="input-box">
@@ -264,14 +244,14 @@
                 <label for="">Address</label>
               </div>
 
+              <div class="input-box">
+                <textarea name="data[Reason]" class="project-textarea" id="" placeholder="Why do you want to join the program?"></textarea>
+              </div>
+
               <button type="submit" class="btn-12">Finish Application</button>
             </form>
             <p>
-              Disclaimer: By clicking 'Continue,' you will be redirected to
-              Paystack, our third-party payment service provider. Please note
-              that Spark Innovation Hub is not responsible for the content or
-              services provided by Paystack. If you encounter any issues related
-              to Paystack services, you must contact Paystack directly.
+              I agree to the terms of service and privacy policy.
             </p>
           </div>
         </div>
