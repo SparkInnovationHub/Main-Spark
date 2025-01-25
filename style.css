@@ -2314,6 +2314,10 @@ option[value=""][disabled] {
   padding: 35px 8%;
 }
 
+.project-section-3 {
+  padding-top: 0;
+}
+
 .project-section-1 img {
   width: 100%;
 }
@@ -2323,11 +2327,11 @@ li {
   font-weight: 400;
 }
 
-.project-page p {
+/* .project-page p,ul {
   padding-bottom: 10px;
-}
+} */
 
-.project-page ul {
+.project-section-2-p{
   padding-bottom: 10px;
 }
 
@@ -2345,10 +2349,13 @@ li {
   gap: 20px;
 }
 
+.project-section-3-p{
+  margin-bottom: 20px;
+}
+
 .project-h2,
 .project-p {
   color: #ffffff;
-  margin-top: auto;
 }
 
 .first-project-section-3-div {
@@ -2359,8 +2366,7 @@ li {
   background-repeat: no-repeat;
   border-radius: 30px;
   padding: 40px;
-  /* display: flex;
-  justify-content: flex-end; */
+  position: relative;
 }
 
 .first-project-section-3-div-text-div {
