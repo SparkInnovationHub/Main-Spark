@@ -2374,6 +2374,10 @@ li {
   flex-direction: column; */
 }
 
+.first-project-section-3-div-text-div h2{
+  margin-top: 70%;
+}
+
 .second-project-section-3-div {
   flex: 1;
 }

@@ -202,11 +202,6 @@
 
 /* sm */
 @media (max-width: 640px) {
-  /* PROJECT PAGE */
-  /* .project-section-1{
-    padding: 35px 0;
-  } */
-
   .container {
     max-width: 475px;
   }
@@ -217,6 +212,11 @@
 @media (max-width: 475px) {
   .container {
     width: 100%;
+  }
+
+  /* PROJECT PAGE */
+  .project-section-3-div{
+    flex-direction: column-reverse;
   }
 }
 
