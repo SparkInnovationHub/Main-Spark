@@ -137,7 +137,7 @@
           shape the future of a smart Benue. Take the first step towards a
           brighter future and join our free training program designed to equip
           you with essential tech skills for innovation and success.
-        </p> 
+        </p>
 
         <h3>About the program</h3>
         <p>
@@ -227,7 +227,7 @@
               <div class="input-box" required>
                 <select id="courses" name="data[Laptop]" aria-hidden="true">
                   <option value="" disabled selected hidden>
-                    Do you have a laptop?
+                    Do you have access to a laptop?
                   </option>
                   <option value="Yes">Yes</option>
                   <option value="No">No</option>
@@ -244,7 +244,12 @@
               </div>
 
               <div class="input-box">
-                <textarea name="data[Reason]" class="project-textarea" id="" placeholder="Why do you want to join the program?"></textarea>
+                <textarea
+                  name="data[Reason]"
+                  class="project-textarea"
+                  id=""
+                  placeholder="Why do you want to join the program?"
+                ></textarea>
               </div>
 
               <button type="submit" class="btn-12">Finish Application</button>
@@ -351,6 +356,23 @@
         </div>
       </footer>
     </div>
+
+    <script>
+      var form = document.getElementById("sheetdb-form");
+      form.addEventListener("submit", (e) => {
+        e.preventDefault();
+        fetch(form.action, {
+          method: "POST",
+          body: new FormData(document.getElementById("sheetdb-form")),
+        })
+          .then((response) => response.json())
+          .then((html) => {
+            // you can put any JS code here
+            //window.open('/academy.html', '_blank');
+            window.open("https://chat.whatsapp.com/Ba2oFTmkE8k0q0nvs0oW96");
+          });
+      });
+    </script>
 
     <script src="/JS/location.js"></script>
 
