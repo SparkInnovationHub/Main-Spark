@@ -207,19 +207,6 @@
   }
 }
 
-/* MOBILE VIEW */
-/* xs */
-@media (max-width: 475px) {
-  .container {
-    width: 100%;
-  }
-
-  /* PROJECT PAGE */
-  .project-section-3-div{
-    flex-direction: column-reverse;
-  }
-}
-
 /* Home Page */
 @media (max-width: 500px) {
   .head {
@@ -1269,6 +1256,23 @@
   }
 
   .btn-12:hover {
+    font-size: 14px;
+  }
+}
+
+/* MOBILE VIEW */
+/* xs */
+@media (max-width: 475px) {
+  .container {
+    width: 100%;
+  }
+
+  /* PROJECT PAGE */
+  .project-section-3-div{
+    flex-direction: column-reverse;
+  }
+
+  p,li{
     font-size: 14px;
   }
 }
